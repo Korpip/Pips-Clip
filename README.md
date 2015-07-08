@@ -23,7 +23,7 @@ Known bugs:
 - Some scenes like the search are not correctly laid out in landscape.
 - importing settings file not working correctly( only 3 things to change so not a biggie)
 - May not look right on all screen sizes.  Still testing.
-- 
+
 
 Other applications tested with it
 - Keepass does NOT send information to Pips Clip
