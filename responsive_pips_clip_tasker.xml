@@ -1,0 +1,166 @@
+<TaskerData sr="" dvi="1" tv="5.8.0.rc3">
+	<dmetric>1080.0,2220.0</dmetric>
+	<Task sr="task001">
+		<cdate>1704067200000</cdate>
+		<edate>1704067200000</edate>
+		<id>1</id>
+		<nme>Clipboard Scene Init</nme>
+		<Action sr="act0" ve="7">
+			<code>547</code>
+			<label>Set Screen Width</label>
+			<Str sr="arg0" ve="3">%SW</Str>
+			<Str sr="arg1" ve="3">%SCREENW</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<label>Set Screen Height</label>
+			<Str sr="arg0" ve="3">%SH</Str>
+			<Str sr="arg1" ve="3">%SCREENH</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>547</code>
+			<label>Set Design Width</label>
+			<Str sr="arg0" ve="3">%DESIGNW</Str>
+			<Str sr="arg1" ve="3">1080</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>595</code>
+			<label>Calculate Scale Factor</label>
+			<Str sr="arg0" ve="3">%SCALE</Str>
+			<Str sr="arg1" ve="3">%SW / %DESIGNW</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>595</code>
+			<label>Calculate Overlay Width</label>
+			<Str sr="arg0" ve="3">%W</Str>
+			<Str sr="arg1" ve="3">round(%DESIGNW * %SCALE)</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>595</code>
+			<label>Calculate Overlay Height</label>
+			<Str sr="arg0" ve="3">%H</Str>
+			<Str sr="arg1" ve="3">round(480 * %SCALE)</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>595</code>
+			<label>Calculate X Position</label>
+			<Str sr="arg0" ve="3">%X</Str>
+			<Str sr="arg1" ve="3">round((%SW - %W) / 2)</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act7" ve="7">
+			<code>595</code>
+			<label>Calculate Y Position</label>
+			<Str sr="arg0" ve="3">%Y</Str>
+			<Str sr="arg1" ve="3">round((%SH - %H) / 4)</Str>
+			<Int sr="arg2" val="0"/>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>362</code>
+			<label>Show Scene</label>
+			<Str sr="arg0" ve="3">PipsClipScene</Str>
+			<Int sr="arg1" val="2"/>
+			<Int sr="arg2">
+				<var>%X</var>
+			</Int>
+			<Int sr="arg3">
+				<var>%Y</var>
+			</Int>
+			<Int sr="arg4">
+				<var>%W</var>
+			</Int>
+			<Int sr="arg5">
+				<var>%H</var>
+			</Int>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<Str sr="arg9" ve="3"/>
+		</Action>
+	</Task>
+	<Scene sr="scenePipsClipScene">
+		<cdate>1704067200000</cdate>
+		<edate>1704067200000</edate>
+		<gridSize>10</gridSize>
+		<heightLand>480</heightLand>
+		<heightPort>480</heightPort>
+		<nme>PipsClipScene</nme>
+		<widthLand>1080</widthLand>
+		<widthPort>1080</widthPort>
+		<TextElement sr="elements0" ve="4">
+			<flags>0</flags>
+			<geom>10,10,400,60,10,10,400,60</geom>
+			<Str sr="arg0" ve="3">Responsive Clipboard Manager</Str>
+			<Str sr="arg1" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg2" ve="3">#FF000000</Str>
+			<Int sr="arg3" val="18"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="8388659"/>
+		</TextElement>
+		<ListElement sr="elements1">
+			<flags>4</flags>
+			<geom>10,80,1060,380,10,80,1060,380</geom>
+			<Str sr="arg0" ve="3">ClipboardList</Str>
+			<Int sr="arg1" val="1"/>
+			<Str sr="arg2" ve="3">Sample Item 1|Sample Item 2|Sample Item 3</Str>
+			<Int sr="arg3" val="0"/>
+			<Scene sr="arg4">
+				<Scene sr="val">
+					<cdate>1704067200000</cdate>
+					<edate>1704067200000</edate>
+					<gridSize>10</gridSize>
+					<heightLand>80</heightLand>
+					<heightPort>80</heightPort>
+					<nme>Placeholder Item Layout</nme>
+					<widthLand>1040</widthLand>
+					<widthPort>1040</widthPort>
+					<TextElement sr="elements0" ve="4">
+						<flags>0</flags>
+						<geom>10,10,1020,60,10,10,1020,60</geom>
+						<Str sr="arg0" ve="3">%list_item</Str>
+						<Str sr="arg1" ve="3">#FFFFFFFF</Str>
+						<Str sr="arg2" ve="3">#FF333333</Str>
+						<Int sr="arg3" val="16"/>
+						<Int sr="arg4" val="1"/>
+						<Int sr="arg5" val="0"/>
+						<Int sr="arg6" val="8388659"/>
+					</TextElement>
+				</Scene>
+			</Scene>
+			<Str sr="arg5" ve="3">#FF666666</Str>
+			<Str sr="arg6" ve="3">#FFFFFFFF</Str>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+			<Int sr="arg10" val="0"/>
+			<Str sr="arg11" ve="3"/>
+			<Str sr="arg12" ve="3"/>
+		</ListElement>
+	</Scene>
+	<Project sr="proj0" ve="2">
+		<cdate>1704067200000</cdate>
+		<name>Responsive Pips Clip Sample</name>
+		<pids/>
+		<tids>1</tids>
+		<scenes>PipsClipScene</scenes>
+		<Img sr="icon" ve="2">
+			<nme>hd_content_paste</nme>
+		</Img>
+	</Project>
+</TaskerData>
