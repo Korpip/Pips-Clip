@@ -1,9 +1,9 @@
-<TaskerData sr="" dvi="1" tv="6.6.3-beta">
-	<dmetric>1440.0,3088.0</dmetric>
+<TaskerData sr="" dvi="1" tv="5.8.0.rc3">
+	<dmetric>1080.0,2220.0</dmetric>
 	<Profile sr="prof300" ve="2">
 		<cdate>1457406621648</cdate>
 		<clp>true</clp>
-		<edate>1753865669493</edate>
+		<edate>1487133719768</edate>
 		<id>300</id>
 		<mid0>279</mid0>
 		<nme>Clipboard Manager</nme>
@@ -18,7 +18,7 @@
 	<Profile sr="prof301" ve="2">
 		<cdate>1457406621652</cdate>
 		<clp>true</clp>
-		<edate>1732465965725</edate>
+		<edate>1438800701242</edate>
 		<id>301</id>
 		<mid0>265</mid0>
 		<Event sr="con0" ve="2">
@@ -35,10 +35,9 @@
 	<Profile sr="prof302" ve="2">
 		<cdate>1457406621655</cdate>
 		<clp>true</clp>
-		<edate>1742500730420</edate>
+		<edate>1561342287705</edate>
 		<id>302</id>
 		<mid0>266</mid0>
-		<mid1>379</mid1>
 		<Event sr="con0" ve="2">
 			<code>411</code>
 			<pri>0</pri>
@@ -47,8 +46,9 @@
 	<Profile sr="prof303" ve="2">
 		<cdate>1457406621663</cdate>
 		<clp>true</clp>
-		<edate>1746830685595</edate>
+		<edate>1437955508248</edate>
 		<id>303</id>
+		<limit>true</limit>
 		<mid0>265</mid0>
 		<Event sr="con0" ve="2">
 			<code>2000</code>
@@ -80,8 +80,9 @@
 	<Profile sr="prof305" ve="2">
 		<cdate>1457406621674</cdate>
 		<clp>true</clp>
-		<edate>1746830705719</edate>
+		<edate>1438800704718</edate>
 		<id>305</id>
+		<limit>true</limit>
 		<mid0>266</mid0>
 		<nme>Send To Clipboard</nme>
 		<Event sr="con0" ve="2">
@@ -93,43 +94,12 @@
 			<Str sr="arg4" ve="3"/>
 		</Event>
 	</Profile>
-	<Profile sr="prof544" ve="2">
-		<cdate>1643767671857</cdate>
-		<clp>true</clp>
-		<edate>1752013278547</edate>
-		<flags>8</flags>
-		<id>544</id>
-		<mid0>279</mid0>
-		<Event sr="con0" ve="2">
-			<code>2097</code>
-			<pri>0</pri>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%cl_extras
-Extras
-Optional extra info in JSON format that the clipboard may contains&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%cl_html_text
-HTML Text
-Current clipboard text if set as HTML text&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%cl_image_uri
-Image URI
-If the URI corresponds to an image, this will have a value&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%cl_mimetypes()
-Mime Type
-The types of data that the clipboard contains&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%cl_text
-Text
-Current clipboard text&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%cl_uri
-URI
-Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Int sr="arg1" val="1"/>
-		</Event>
-	</Profile>
 	<Project sr="proj0" ve="2">
 		<cdate>1428501351908</cdate>
 		<name>Pips Clip</name>
-		<pids>303,302,300,544,301,304,305</pids>
-		<scenes>Emoji,Edit Box,Strip URL,Word Check,Fav List,Settings,Clipboard List</scenes>
-		<tids>250,286,288,262,248,243,264,249,289,246,275,233,274,242,259,239,261,268,278,255,232,254,277,283,251,227,290,284,241,228,299,276,297,231,295,298,271,291,253,681,258,235,281,229,282,292,236,230,244,675,293,680,240,273,226,237,266,252,257,294,267,260,256,247,270,272,287,285,296,263,265,245,269,279,379,565,234,280,238</tids>
+		<pids>304,300,301,303,305,302</pids>
+		<scenes>Clipboard List,Edit Box,Emoji,Fav List,Word Check,Settings,Strip URL</scenes>
+		<tids>288,246,294,241,232,292,287,268,282,236,250,274,256,251,276,289,233,249,263,269,296,243,242,244,254,278,247,227,277,290,286,272,283,252,226,293,275,257,255,240,271,298,297,229,270,281,261,237,260,230,284,245,273,264,265,266,295,258,267,248,262,228,231,253,299,259,239,235,291,280,234,238,279,285</tids>
 		<Kid sr="Kid">
 			<launchID>19</launchID>
 			<pkg>pips.clip</pkg>
@@ -143,50 +113,52 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 	</Project>
 	<Scene sr="sceneClipboard List">
 		<cdate>1428378838423</cdate>
-		<edate>1746831938852</edate>
+		<edate>1557102690818</edate>
 		<gridSize>10</gridSize>
-		<heightLand>1058</heightLand>
-		<heightPort>800</heightPort>
+		<heightLand>529</heightLand>
+		<heightPort>469</heightPort>
 		<nme>Clipboard List</nme>
-		<widthLand>3896</widthLand>
-		<widthPort>1440</widthPort>
+		<widthLand>1948</widthLand>
+		<widthPort>1080</widthPort>
 		<ListElement sr="elements0">
-			<geom>0,0,1440,670,0,0,3896,894</geom>
+			<flags>4</flags>
+			<geom>0,0,1080,396,0,0,1948,447</geom>
 			<itemclickTask>283</itemclickTask>
 			<itemlongclickTask>228</itemlongclickTask>
-			<Str sr="arg0" ve="3">Clipboard History2</Str>
+			<Str sr="arg0" ve="3">Menu1</Str>
 			<Int sr="arg1" val="1"/>
 			<Str sr="arg2" ve="3">%Clipboard</Str>
 			<Int sr="arg3" val="0"/>
 			<Scene sr="arg4">
 				<Scene sr="val">
-					<cdate>1732062919957</cdate>
-					<edate>1732062919957</edate>
-					<heightLand>-1</heightLand>
-					<heightPort>85</heightPort>
+					<cdate>1428378960814</cdate>
+					<edate>1428378960814</edate>
+					<gridSize>10</gridSize>
+					<heightLand>80</heightLand>
+					<heightPort>173</heightPort>
 					<nme>Builtin Item Layout</nme>
-					<widthLand>-1</widthLand>
-					<widthPort>1440</widthPort>
+					<widthLand>1920</widthLand>
+					<widthPort>1826</widthPort>
 					<ImageElement sr="elements0" ve="2">
 						<flags>1</flags>
-						<geom>706,0,204,85,-1,-1,-1,-1</geom>
+						<geom>374,0,22,22,690,0,54,40</geom>
 						<Str sr="arg0" ve="3">Icon</Str>
 						<Img sr="arg1" ve="2">
-							<nme>hd_aaa_ext_tiles_small</nme>
+							<nme>cust_warning</nme>
 						</Img>
 						<Int sr="arg2" val="255"/>
 					</ImageElement>
 					<TextElement sr="elements1" ve="3">
 						<flags>5</flags>
-						<geom>0,0,1439,85,-1,-1,-1,-1</geom>
+						<geom>0,0,1826,173,0,0,1920,80</geom>
 						<Str sr="arg0" ve="3">Label</Str>
 						<Str sr="arg1" ve="3"/>
 						<Int sr="arg2" val="18"/>
 						<Int sr="arg3" val="100"/>
-						<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+						<Str sr="arg4" ve="3">%Textcolor</Str>
 						<Str sr="arg5" ve="3"/>
-						<Int sr="arg6" val="3"/>
-						<Int sr="arg7" val="2"/>
+						<Int sr="arg6" val="5"/>
+						<Int sr="arg7" val="0"/>
 						<Int sr="arg8" val="0"/>
 						<RectElement sr="background">
 							<flags>4</flags>
@@ -196,23 +168,23 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 							<Str sr="arg2" ve="3"/>
 							<Str sr="arg3" ve="3"/>
 							<Int sr="arg4" val="1"/>
-							<Str sr="arg5" ve="3">#FFE8BB55</Str>
+							<Str sr="arg5" ve="3">%Bordercolor</Str>
 							<Int sr="arg6" val="0"/>
 							<Int sr="arg7" val="0"/>
 						</RectElement>
 					</TextElement>
 					<TextElement sr="elements2" ve="3">
 						<flags>1</flags>
-						<geom>21,0,108,85,-1,-1,-1,-1</geom>
+						<geom>2,0,40,23,16,0,86,40</geom>
 						<Str sr="arg0" ve="3">Index</Str>
 						<Str sr="arg1" ve="3">1.</Str>
-						<Int sr="arg2" val="28"/>
-						<Int sr="arg3" val="100"/>
+						<Int sr="arg2" val="30"/>
+						<Int sr="arg3"/>
 						<Str sr="arg4" ve="3">#FFFFFFFF</Str>
 						<Str sr="arg5" ve="3"/>
 						<Int sr="arg6" val="0"/>
-						<Int sr="arg7" val="0"/>
-						<Int sr="arg8" val="0"/>
+						<Int sr="arg7"/>
+						<Int sr="arg8"/>
 					</TextElement>
 					<PropertiesElement sr="props">
 						<Int sr="arg0" val="1"/>
@@ -243,7 +215,7 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 		</ListElement>
 		<SpinnerElement sr="elements1">
 			<flags>4</flags>
-			<geom>0,670,1440,125,0,894,1920,112</geom>
+			<geom>0,396,1080,71,0,447,1948,80</geom>
 			<Str sr="arg0" ve="3">Spinner1</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3"/>
@@ -252,13 +224,13 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 					<cdate>1438753575905</cdate>
 					<edate>1438753575904</edate>
 					<heightLand>112</heightLand>
-					<heightPort>125</heightPort>
+					<heightPort>228</heightPort>
 					<nme>spinner</nme>
 					<widthLand>1920</widthLand>
-					<widthPort>1440</widthPort>
+					<widthPort>1501</widthPort>
 					<ImageElement sr="elements0" ve="2">
 						<flags>1</flags>
-						<geom>0,0,576,125,292,10,102,91</geom>
+						<geom>604,15,209,184,292,10,102,91</geom>
 						<Str sr="arg0" ve="3">Icon</Str>
 						<Img sr="arg1" ve="2">
 							<nme>hd_aaa_ext_tiles_small</nme>
@@ -267,23 +239,23 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 					</ImageElement>
 					<TextElement sr="elements1" ve="3">
 						<flags>5</flags>
-						<geom>0,0,1439,125,0,0,1920,106</geom>
+						<geom>0,0,1501,228,0,0,1920,106</geom>
 						<Str sr="arg0" ve="3">Label</Str>
 						<Str sr="arg1" ve="3"/>
-						<Int sr="arg2" val="12"/>
+						<Int sr="arg2" val="26"/>
 						<Int sr="arg3" val="100"/>
 						<Str sr="arg4" ve="3">%Textcolor</Str>
 						<Str sr="arg5" ve="3"/>
 						<Int sr="arg6" val="0"/>
-						<Int sr="arg7" val="1"/>
+						<Int sr="arg7" val="0"/>
 						<Int sr="arg8" val="0"/>
 					</TextElement>
 					<TextElement sr="elements2" ve="3">
 						<flags>1</flags>
-						<geom>40,0,368,125,10,10,64,91</geom>
+						<geom>15,15,128,184,10,10,64,91</geom>
 						<Str sr="arg0" ve="3">Index</Str>
 						<Str sr="arg1" ve="3">1.</Str>
-						<Int sr="arg2" val="44"/>
+						<Int sr="arg2" val="26"/>
 						<Int sr="arg3"/>
 						<Str sr="arg4" ve="3">#FFFFFFFF</Str>
 						<Str sr="arg5" ve="3"/>
@@ -315,7 +287,6 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 					<Int sr="arg3" val="0"/>
 					<Int sr="arg4" val="0"/>
 					<Int sr="arg5"/>
-					<Int sr="arg6" val="0"/>
 				</Action>
 			</ListElementItem>
 			<ListElementItem sr="item1">
@@ -326,15 +297,10 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 					<Int sr="arg1">
 						<var>%priority</var>
 					</Int>
-					<Int sr="arg10" val="0"/>
 					<Str sr="arg2" ve="3"/>
 					<Str sr="arg3" ve="3"/>
 					<Str sr="arg4" ve="3"/>
 					<Int sr="arg5" val="0"/>
-					<Int sr="arg6" val="0"/>
-					<Str sr="arg7" ve="3"/>
-					<Int sr="arg8" val="0"/>
-					<Int sr="arg9" val="0"/>
 				</Action>
 				<Img sr="icon" ve="2">
 					<nme>hd_rating_important</nme>
@@ -344,19 +310,14 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 				<label>Emoticons</label>
 				<Action sr="action" ve="7">
 					<code>130</code>
-					<Str sr="arg0" ve="3">Pips Clip - Open Emoji</Str>
+					<Str sr="arg0" ve="3">Pips Clip - Import-Emoji</Str>
 					<Int sr="arg1">
 						<var>%priority</var>
 					</Int>
-					<Int sr="arg10" val="0"/>
 					<Str sr="arg2" ve="3"/>
 					<Str sr="arg3" ve="3"/>
 					<Str sr="arg4" ve="3"/>
 					<Int sr="arg5" val="0"/>
-					<Int sr="arg6" val="0"/>
-					<Str sr="arg7" ve="3"/>
-					<Int sr="arg8" val="0"/>
-					<Int sr="arg9" val="0"/>
 				</Action>
 			</ListElementItem>
 			<ListElementItem sr="item3">
@@ -367,15 +328,10 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 					<Int sr="arg1">
 						<var>%priority</var>
 					</Int>
-					<Int sr="arg10" val="0"/>
 					<Str sr="arg2" ve="3"/>
 					<Str sr="arg3" ve="3"/>
 					<Str sr="arg4" ve="3"/>
 					<Int sr="arg5" val="0"/>
-					<Int sr="arg6" val="0"/>
-					<Str sr="arg7" ve="3"/>
-					<Int sr="arg8" val="0"/>
-					<Int sr="arg9" val="0"/>
 				</Action>
 			</ListElementItem>
 			<ListElementItem sr="item4">
@@ -386,15 +342,10 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 					<Int sr="arg1">
 						<var>%priority</var>
 					</Int>
-					<Int sr="arg10" val="0"/>
 					<Str sr="arg2" ve="3"/>
 					<Str sr="arg3" ve="3"/>
 					<Str sr="arg4" ve="3"/>
 					<Int sr="arg5" val="0"/>
-					<Int sr="arg6" val="0"/>
-					<Str sr="arg7" ve="3"/>
-					<Int sr="arg8" val="0"/>
-					<Int sr="arg9" val="0"/>
 				</Action>
 			</ListElementItem>
 			<ListElementItem sr="item5">
@@ -405,110 +356,13 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 					<Int sr="arg1">
 						<var>%priority</var>
 					</Int>
-					<Int sr="arg10" val="0"/>
 					<Str sr="arg2" ve="3"/>
 					<Str sr="arg3" ve="3"/>
 					<Str sr="arg4" ve="3"/>
 					<Int sr="arg5" val="0"/>
-					<Int sr="arg6" val="0"/>
-					<Str sr="arg7" ve="3"/>
-					<Int sr="arg8" val="0"/>
-					<Int sr="arg9" val="0"/>
 				</Action>
 			</ListElementItem>
 		</SpinnerElement>
-		<ListElement sr="elements2">
-			<flags>4</flags>
-			<geom>0,0,1440,670,-1,-1,-1,-1</geom>
-			<itemclickTask>680</itemclickTask>
-			<itemlongclickTask>681</itemlongclickTask>
-			<Str sr="arg0" ve="3">Clipboard History</Str>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg2" ve="3">%Clipboard</Str>
-			<Int sr="arg3" val="0"/>
-			<Scene sr="arg4">
-				<Scene sr="val">
-					<cdate>1746831239457</cdate>
-					<edate>1746831239457</edate>
-					<heightLand>-1</heightLand>
-					<heightPort>100</heightPort>
-					<nme>Builtin Item Layout</nme>
-					<widthLand>-1</widthLand>
-					<widthPort>1440</widthPort>
-					<TextElement sr="elements0" ve="3">
-						<flags>13</flags>
-						<geom>0,0,1439,100,-1,-1,-1,-1</geom>
-						<Str sr="arg0" ve="3">Label</Str>
-						<Str sr="arg1" ve="3"/>
-						<Int sr="arg2" val="18"/>
-						<Int sr="arg3" val="100"/>
-						<Str sr="arg4" ve="3">#FFFFFFFF</Str>
-						<Str sr="arg5" ve="3"/>
-						<Int sr="arg6" val="3"/>
-						<Int sr="arg7" val="0"/>
-						<Int sr="arg8" val="0"/>
-						<RectElement sr="background">
-							<flags>4</flags>
-							<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
-							<Str sr="arg0" ve="3"/>
-							<Int sr="arg1" val="0"/>
-							<Str sr="arg2" ve="3"/>
-							<Str sr="arg3" ve="3"/>
-							<Int sr="arg4" val="1"/>
-							<Str sr="arg5" ve="3">%Bordercolor</Str>
-							<Int sr="arg6" val="0"/>
-							<Int sr="arg7" val="0"/>
-						</RectElement>
-					</TextElement>
-					<ImageElement sr="elements1" ve="2">
-						<flags>1</flags>
-						<geom>765,0,204,100,-1,-1,-1,-1</geom>
-						<Str sr="arg0" ve="3">Icon</Str>
-						<Img sr="arg1" ve="2">
-							<nme>hd_aaa_ext_tiles_small</nme>
-						</Img>
-						<Int sr="arg2" val="255"/>
-					</ImageElement>
-					<TextElement sr="elements2" ve="3">
-						<flags>1</flags>
-						<geom>21,0,108,100,-1,-1,-1,-1</geom>
-						<Str sr="arg0" ve="3">Index</Str>
-						<Str sr="arg1" ve="3">1.</Str>
-						<Int sr="arg2" val="28"/>
-						<Int sr="arg3" val="100"/>
-						<Str sr="arg4" ve="3">#FFFFFFFF</Str>
-						<Str sr="arg5" ve="3"/>
-						<Int sr="arg6" val="0"/>
-						<Int sr="arg7"/>
-						<Int sr="arg8"/>
-					</TextElement>
-					<PropertiesElement sr="props">
-						<Int sr="arg0" val="1"/>
-						<Int sr="arg1" val="0"/>
-						<Str sr="arg2" ve="3">#00000000</Str>
-						<Int sr="arg3" val="0"/>
-						<Str sr="arg4" ve="3">Builtin Item Layout</Str>
-						<Str sr="arg5" ve="3"/>
-						<Img sr="arg6" ve="2"/>
-						<Str sr="arg7" ve="3"/>
-					</PropertiesElement>
-				</Scene>
-			</Scene>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<RectElement sr="background">
-				<flags>4</flags>
-				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
-				<Str sr="arg0" ve="3"/>
-				<Int sr="arg1" val="0"/>
-				<Str sr="arg2" ve="3"/>
-				<Str sr="arg3" ve="3"/>
-				<Int sr="arg4" val="1"/>
-				<Str sr="arg5" ve="3">%Bordercolor</Str>
-				<Int sr="arg6" val="0"/>
-				<Int sr="arg7" val="0"/>
-			</RectElement>
-		</ListElement>
 		<PropertiesElement sr="props">
 			<Int sr="arg0" val="0"/>
 			<Int sr="arg1" val="0"/>
@@ -522,20 +376,20 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 	</Scene>
 	<Scene sr="sceneEdit Box">
 		<cdate>1428378838423</cdate>
-		<edate>1746890064221</edate>
+		<edate>1531270652151</edate>
 		<gridSize>10</gridSize>
-		<heightLand>1058</heightLand>
-		<heightPort>938</heightPort>
+		<heightLand>529</heightLand>
+		<heightPort>529</heightPort>
 		<nme>Edit Box</nme>
-		<widthLand>3896</widthLand>
-		<widthPort>2160</widthPort>
+		<widthLand>1948</widthLand>
+		<widthPort>1218</widthPort>
 		<ButtonElement sr="elements0" ve="3">
 			<clickTask>254</clickTask>
 			<flags>4</flags>
-			<geom>1800,778,356,154,3170,892,726,166</geom>
+			<geom>1015,439,201,87,1585,446,363,83</geom>
 			<Str sr="arg0" ve="3">Select</Str>
 			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="34"/>
+			<Int sr="arg2" val="20"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%Textcolor</Str>
 			<Str sr="arg5" ve="3"/>
@@ -546,11 +400,11 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 		</ButtonElement>
 		<EditTextElement sr="elements1" ve="3">
 			<flags>12</flags>
-			<geom>0,0,2160,778,0,0,3896,894</geom>
+			<geom>0,0,1218,439,0,0,1948,447</geom>
 			<valueselectedTask>243</valueselectedTask>
 			<Str sr="arg0" ve="3">TextEdit1</Str>
 			<Str sr="arg1" ve="3">%Selectedclip</Str>
-			<Int sr="arg2" val="34"/>
+			<Int sr="arg2" val="20"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%Textcolor</Str>
 			<Str sr="arg5" ve="3"/>
@@ -572,7 +426,7 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 		</EditTextElement>
 		<SpinnerElement sr="elements2">
 			<flags>4</flags>
-			<geom>0,778,1794,154,0,894,810,224</geom>
+			<geom>0,439,1012,87,0,447,1588,77</geom>
 			<Str sr="arg0" ve="3">Spinner1</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3"/>
@@ -581,13 +435,13 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 					<cdate>1438750386251</cdate>
 					<edate>1438750386251</edate>
 					<heightLand>112</heightLand>
-					<heightPort>308</heightPort>
+					<heightPort>316</heightPort>
 					<nme>spinner</nme>
 					<widthLand>405</widthLand>
-					<widthPort>3588</widthPort>
+					<widthPort>1712</widthPort>
 					<ImageElement sr="elements0" ve="2">
 						<flags>1</flags>
-						<geom>2096,0,728,308,292,10,102,91</geom>
+						<geom>832,25,289,256,292,10,102,91</geom>
 						<Str sr="arg0" ve="3">Icon</Str>
 						<Img sr="arg1" ve="2">
 							<nme>hd_aaa_ext_tiles_small</nme>
@@ -596,23 +450,23 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 					</ImageElement>
 					<TextElement sr="elements1" ve="3">
 						<flags>5</flags>
-						<geom>0,0,3588,308,75,10,207,91</geom>
+						<geom>0,0,1712,316,75,10,207,91</geom>
 						<Str sr="arg0" ve="3">Label</Str>
 						<Str sr="arg1" ve="3"/>
-						<Int sr="arg2" val="44"/>
+						<Int sr="arg2" val="26"/>
 						<Int sr="arg3" val="100"/>
 						<Str sr="arg4" ve="3">%Textcolor</Str>
 						<Str sr="arg5" ve="3"/>
 						<Int sr="arg6" val="0"/>
-						<Int sr="arg7" val="1"/>
+						<Int sr="arg7" val="0"/>
 						<Int sr="arg8" val="0"/>
 					</TextElement>
 					<TextElement sr="elements2" ve="3">
 						<flags>1</flags>
-						<geom>60,0,452,308,10,10,64,91</geom>
+						<geom>25,25,180,256,10,10,64,91</geom>
 						<Str sr="arg0" ve="3">Index</Str>
 						<Str sr="arg1" ve="3">1.</Str>
-						<Int sr="arg2" val="44"/>
+						<Int sr="arg2" val="26"/>
 						<Int sr="arg3"/>
 						<Str sr="arg4" ve="3">#FFFFFFFF</Str>
 						<Str sr="arg5" ve="3"/>
@@ -644,7 +498,6 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 					<Int sr="arg3" val="0"/>
 					<Int sr="arg4" val="0"/>
 					<Int sr="arg5"/>
-					<Int sr="arg6" val="0"/>
 				</Action>
 			</ListElementItem>
 			<ListElementItem sr="item1">
@@ -657,7 +510,6 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 					<Int sr="arg3" val="0"/>
 					<Int sr="arg4" val="0"/>
 					<Int sr="arg5"/>
-					<Int sr="arg6" val="0"/>
 				</Action>
 			</ListElementItem>
 			<ListElementItem sr="item2">
@@ -670,7 +522,6 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 					<Int sr="arg3" val="0"/>
 					<Int sr="arg4" val="0"/>
 					<Int sr="arg5"/>
-					<Int sr="arg6" val="0"/>
 				</Action>
 			</ListElementItem>
 			<ListElementItem sr="item3">
@@ -683,7 +534,6 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 					<Int sr="arg3" val="0"/>
 					<Int sr="arg4" val="0"/>
 					<Int sr="arg5"/>
-					<Int sr="arg6" val="0"/>
 				</Action>
 			</ListElementItem>
 			<ListElementItem sr="item4">
@@ -696,7 +546,6 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 					<Int sr="arg3" val="0"/>
 					<Int sr="arg4" val="0"/>
 					<Int sr="arg5"/>
-					<Int sr="arg6" val="0"/>
 				</Action>
 			</ListElementItem>
 			<ListElementItem sr="item5">
@@ -709,7 +558,6 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 					<Int sr="arg3" val="0"/>
 					<Int sr="arg4" val="0"/>
 					<Int sr="arg5"/>
-					<Int sr="arg6" val="0"/>
 				</Action>
 			</ListElementItem>
 			<ListElementItem sr="item6">
@@ -722,7 +570,6 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 					<Int sr="arg3" val="0"/>
 					<Int sr="arg4" val="0"/>
 					<Int sr="arg5"/>
-					<Int sr="arg6" val="0"/>
 				</Action>
 			</ListElementItem>
 			<ListElementItem sr="item7">
@@ -735,7 +582,6 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 					<Int sr="arg3" val="0"/>
 					<Int sr="arg4" val="0"/>
 					<Int sr="arg5"/>
-					<Int sr="arg6" val="0"/>
 				</Action>
 			</ListElementItem>
 		</SpinnerElement>
@@ -752,20 +598,20 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 	</Scene>
 	<Scene sr="sceneEmoji">
 		<cdate>1428378838423</cdate>
-		<edate>1746890041784</edate>
+		<edate>1447712456796</edate>
 		<gridSize>10</gridSize>
-		<heightLand>1058</heightLand>
-		<heightPort>800</heightPort>
+		<heightLand>529</heightLand>
+		<heightPort>529</heightPort>
 		<nme>Emoji</nme>
-		<widthLand>3896</widthLand>
-		<widthPort>1440</widthPort>
+		<widthLand>1948</widthLand>
+		<widthPort>1218</widthPort>
 		<ButtonElement sr="elements0" ve="3">
 			<clickTask>250</clickTask>
 			<flags>4</flags>
-			<geom>0,0,1439,138,0,0,3896,138</geom>
+			<geom>0,0,1218,69,0,0,1948,69</geom>
 			<Str sr="arg0" ve="3">Close</Str>
 			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="34"/>
+			<Int sr="arg2" val="20"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">#FFff6600</Str>
 			<Str sr="arg5" ve="3"/>
@@ -776,7 +622,7 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 		</ButtonElement>
 		<ListElement sr="elements1">
 			<flags>4</flags>
-			<geom>0,0,1439,478,0,138,3896,916</geom>
+			<geom>0,69,1218,458,0,69,1948,458</geom>
 			<itemclickTask>237</itemclickTask>
 			<itemlongclickTask>235</itemlongclickTask>
 			<Str sr="arg0" ve="3">Emoji</Str>
@@ -788,13 +634,13 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 					<cdate>1428378960814</cdate>
 					<edate>1428378960814</edate>
 					<heightLand>70</heightLand>
-					<heightPort>784</heightPort>
+					<heightPort>196</heightPort>
 					<nme>Builtin Item Layout</nme>
 					<widthLand>1920</widthLand>
-					<widthPort>8240</widthPort>
+					<widthPort>2060</widthPort>
 					<ImageElement sr="elements0" ve="2">
 						<flags>1</flags>
-						<geom>1688,0,100,100,690,0,54,52</geom>
+						<geom>422,0,25,25,690,0,54,52</geom>
 						<Str sr="arg0" ve="3">Icon</Str>
 						<Img sr="arg1" ve="2">
 							<nme>cust_warning</nme>
@@ -803,10 +649,10 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 					</ImageElement>
 					<TextElement sr="elements1" ve="3">
 						<flags>5</flags>
-						<geom>0,0,8240,784,0,0,1920,70</geom>
+						<geom>0,0,2060,196,0,0,1920,70</geom>
 						<Str sr="arg0" ve="3">Label</Str>
 						<Str sr="arg1" ve="3"/>
-						<Int sr="arg2" val="30"/>
+						<Int sr="arg2" val="18"/>
 						<Int sr="arg3" val="100"/>
 						<Str sr="arg4" ve="3">%Textcolor</Str>
 						<Str sr="arg5" ve="3"/>
@@ -828,10 +674,10 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 					</TextElement>
 					<TextElement sr="elements2" ve="3">
 						<flags>1</flags>
-						<geom>12,0,184,108,16,0,86,55</geom>
+						<geom>3,0,46,27,16,0,86,55</geom>
 						<Str sr="arg0" ve="3">Index</Str>
 						<Str sr="arg1" ve="3">1.</Str>
-						<Int sr="arg2" val="48"/>
+						<Int sr="arg2" val="30"/>
 						<Int sr="arg3"/>
 						<Str sr="arg4" ve="3">#FFFFFFFF</Str>
 						<Str sr="arg5" ve="3"/>
@@ -879,16 +725,16 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 	</Scene>
 	<Scene sr="sceneFav List">
 		<cdate>1428378838423</cdate>
-		<edate>1746890083400</edate>
+		<edate>1447712444395</edate>
 		<gridSize>10</gridSize>
-		<heightLand>1058</heightLand>
-		<heightPort>1058</heightPort>
+		<heightLand>529</heightLand>
+		<heightPort>529</heightPort>
 		<nme>Fav List</nme>
-		<widthLand>3896</widthLand>
-		<widthPort>2436</widthPort>
+		<widthLand>1948</widthLand>
+		<widthPort>1218</widthPort>
 		<ListElement sr="elements0">
 			<flags>4</flags>
-			<geom>0,138,2436,910,0,118,3896,934</geom>
+			<geom>0,69,1218,455,0,59,1948,467</geom>
 			<itemclickTask>278</itemclickTask>
 			<itemlongclickTask>227</itemlongclickTask>
 			<Str sr="arg0" ve="3">Menu1</Str>
@@ -900,13 +746,13 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 					<cdate>1428378960814</cdate>
 					<edate>1428378960814</edate>
 					<heightLand>80</heightLand>
-					<heightPort>784</heightPort>
+					<heightPort>196</heightPort>
 					<nme>Builtin Item Layout</nme>
 					<widthLand>1920</widthLand>
-					<widthPort>8240</widthPort>
+					<widthPort>2060</widthPort>
 					<ImageElement sr="elements0" ve="2">
 						<flags>1</flags>
-						<geom>1688,0,100,100,690,0,54,52</geom>
+						<geom>422,0,25,25,690,0,54,52</geom>
 						<Str sr="arg0" ve="3">Icon</Str>
 						<Img sr="arg1" ve="2">
 							<nme>cust_warning</nme>
@@ -915,10 +761,10 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 					</ImageElement>
 					<TextElement sr="elements1" ve="3">
 						<flags>5</flags>
-						<geom>0,0,8240,784,0,0,1920,80</geom>
+						<geom>0,0,2060,196,0,0,1920,80</geom>
 						<Str sr="arg0" ve="3">Label</Str>
 						<Str sr="arg1" ve="3"/>
-						<Int sr="arg2" val="30"/>
+						<Int sr="arg2" val="18"/>
 						<Int sr="arg3" val="100"/>
 						<Str sr="arg4" ve="3">%Textcolor</Str>
 						<Str sr="arg5" ve="3"/>
@@ -940,10 +786,10 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 					</TextElement>
 					<TextElement sr="elements2" ve="3">
 						<flags>1</flags>
-						<geom>12,0,184,108,16,0,86,55</geom>
+						<geom>3,0,46,27,16,0,86,55</geom>
 						<Str sr="arg0" ve="3">Index</Str>
 						<Str sr="arg1" ve="3">1.</Str>
-						<Int sr="arg2" val="48"/>
+						<Int sr="arg2" val="30"/>
 						<Int sr="arg3"/>
 						<Str sr="arg4" ve="3">#FFFFFFFF</Str>
 						<Str sr="arg5" ve="3"/>
@@ -981,10 +827,10 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 		<ButtonElement sr="elements1" ve="3">
 			<clickTask>251</clickTask>
 			<flags>4</flags>
-			<geom>0,0,2436,138,0,0,3896,118</geom>
+			<geom>0,0,1218,69,0,0,1948,59</geom>
 			<Str sr="arg0" ve="3">Close</Str>
 			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="34"/>
+			<Int sr="arg2" val="20"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">#FF000000</Str>
 			<Str sr="arg5" ve="3"/>
@@ -1006,20 +852,20 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 	</Scene>
 	<Scene sr="sceneSettings">
 		<cdate>1428378838423</cdate>
-		<edate>1746830807733</edate>
+		<edate>1460679490159</edate>
 		<gridSize>10</gridSize>
-		<heightLand>1198</heightLand>
-		<heightPort>2436</heightPort>
+		<heightLand>599</heightLand>
+		<heightPort>1218</heightPort>
 		<nme>Settings</nme>
-		<widthLand>3896</widthLand>
-		<widthPort>1520</widthPort>
+		<widthLand>1948</widthLand>
+		<widthPort>760</widthPort>
 		<ButtonElement sr="elements0" ve="3">
 			<clickTask>299</clickTask>
 			<flags>4</flags>
-			<geom>0,710,1520,134,0,1052,1010,142</geom>
+			<geom>0,355,760,67,0,526,505,71</geom>
 			<Str sr="arg0" ve="3">Delete</Str>
 			<Str sr="arg1" ve="3">Save</Str>
-			<Int sr="arg2" val="34"/>
+			<Int sr="arg2" val="20"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%Textcolor</Str>
 			<Str sr="arg5" ve="3"/>
@@ -1029,10 +875,10 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 		<ButtonElement sr="elements1" ve="3">
 			<clickTask>257</clickTask>
 			<flags>4</flags>
-			<geom>0,0,1520,110,0,0,3896,138</geom>
+			<geom>0,0,760,55,0,0,1948,69</geom>
 			<Str sr="arg0" ve="3">Close</Str>
 			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="34"/>
+			<Int sr="arg2" val="20"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">#FFff6600</Str>
 			<Str sr="arg5" ve="3"/>
@@ -1044,10 +890,10 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 		<ButtonElement sr="elements10" ve="3">
 			<clickTask>294</clickTask>
 			<flags>4</flags>
-			<geom>0,1386,1520,134,1988,768,950,138</geom>
+			<geom>0,693,760,67,994,384,475,69</geom>
 			<Str sr="arg0" ve="3">Button3111</Str>
 			<Str sr="arg1" ve="3">Import Emoji</Str>
-			<Int sr="arg2" val="34"/>
+			<Int sr="arg2" val="20"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%Textcolor</Str>
 			<Str sr="arg5" ve="3"/>
@@ -1057,10 +903,10 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 		<ButtonElement sr="elements11" ve="3">
 			<clickTask>281</clickTask>
 			<flags>4</flags>
-			<geom>0,1658,1520,134,2942,768,950,138</geom>
+			<geom>0,829,760,67,1471,384,475,69</geom>
 			<Str sr="arg0" ve="3">Button3112</Str>
 			<Str sr="arg1" ve="3">Import Settings</Str>
-			<Int sr="arg2" val="34"/>
+			<Int sr="arg2" val="20"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%Textcolor</Str>
 			<Str sr="arg5" ve="3"/>
@@ -1070,10 +916,10 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 		<ButtonElement sr="elements12" ve="3">
 			<clickTask>230</clickTask>
 			<flags>4</flags>
-			<geom>0,978,1520,134,0,910,1012,138</geom>
+			<geom>0,489,760,67,0,455,506,69</geom>
 			<Str sr="arg0" ve="3">Button312</Str>
 			<Str sr="arg1" ve="3">Export Clipboard</Str>
-			<Int sr="arg2" val="34"/>
+			<Int sr="arg2" val="20"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%Textcolor</Str>
 			<Str sr="arg5" ve="3"/>
@@ -1083,10 +929,10 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 		<ButtonElement sr="elements13" ve="3">
 			<clickTask>277</clickTask>
 			<flags>4</flags>
-			<geom>0,1250,1520,134,1012,910,974,138</geom>
+			<geom>0,625,760,67,506,455,487,69</geom>
 			<Str sr="arg0" ve="3">Button3113</Str>
 			<Str sr="arg1" ve="3">Export Favorites</Str>
-			<Int sr="arg2" val="34"/>
+			<Int sr="arg2" val="20"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%Textcolor</Str>
 			<Str sr="arg5" ve="3"/>
@@ -1096,10 +942,10 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 		<ButtonElement sr="elements14" ve="3">
 			<clickTask>290</clickTask>
 			<flags>4</flags>
-			<geom>0,1520,1520,134,1988,910,950,138</geom>
+			<geom>0,760,760,67,994,455,475,69</geom>
 			<Str sr="arg0" ve="3">Button31111</Str>
 			<Str sr="arg1" ve="3">Export Emoji</Str>
-			<Int sr="arg2" val="34"/>
+			<Int sr="arg2" val="20"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%Textcolor</Str>
 			<Str sr="arg5" ve="3"/>
@@ -1109,10 +955,10 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 		<ButtonElement sr="elements15" ve="3">
 			<clickTask>268</clickTask>
 			<flags>4</flags>
-			<geom>0,1792,1520,134,2942,910,950,138</geom>
+			<geom>0,896,760,67,1471,455,475,69</geom>
 			<Str sr="arg0" ve="3">Button31121</Str>
 			<Str sr="arg1" ve="3">Export Settings</Str>
-			<Int sr="arg2" val="34"/>
+			<Int sr="arg2" val="20"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%Textcolor</Str>
 			<Str sr="arg5" ve="3"/>
@@ -1122,10 +968,10 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 		<ButtonElement sr="elements16" ve="3">
 			<clickTask>264</clickTask>
 			<flags>4</flags>
-			<geom>0,110,756,134,0,178,1210,220</geom>
+			<geom>0,55,378,67,0,89,605,110</geom>
 			<Str sr="arg0" ve="3">Button14</Str>
 			<Str sr="arg1" ve="3">Stock text color (#ffffffff)</Str>
-			<Int sr="arg2" val="34"/>
+			<Int sr="arg2" val="20"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%Textcolor</Str>
 			<Str sr="arg5" ve="3"/>
@@ -1135,10 +981,10 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 		<ButtonElement sr="elements17" ve="3">
 			<clickTask>263</clickTask>
 			<flags>4</flags>
-			<geom>0,250,760,134,0,402,1216,220</geom>
+			<geom>0,125,380,67,0,201,608,110</geom>
 			<Str sr="arg0" ve="3">Button141</Str>
 			<Str sr="arg1" ve="3">Stock border color (#ffffffff)</Str>
-			<Int sr="arg2" val="34"/>
+			<Int sr="arg2" val="20"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%Textcolor</Str>
 			<Str sr="arg5" ve="3"/>
@@ -1148,10 +994,10 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 		<ButtonElement sr="elements18" ve="3">
 			<clickTask>258</clickTask>
 			<flags>4</flags>
-			<geom>0,384,760,134,0,402,1216,220</geom>
+			<geom>0,192,380,67,0,201,608,110</geom>
 			<Str sr="arg0" ve="3">Button1411</Str>
 			<Str sr="arg1" ve="3">Stock background color (#ff000000)</Str>
-			<Int sr="arg2" val="34"/>
+			<Int sr="arg2" val="20"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%Textcolor</Str>
 			<Str sr="arg5" ve="3"/>
@@ -1161,10 +1007,10 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 		<ButtonElement sr="elements19" ve="3">
 			<clickTask>262</clickTask>
 			<flags>4</flags>
-			<geom>0,540,756,166,0,402,1216,220</geom>
+			<geom>0,270,378,83,0,201,608,110</geom>
 			<Str sr="arg0" ve="3">Button14111</Str>
 			<Str sr="arg1" ve="3">Stock button color (#ff000000)</Str>
-			<Int sr="arg2" val="34"/>
+			<Int sr="arg2" val="20"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%Textcolor</Str>
 			<Str sr="arg5" ve="3"/>
@@ -1173,11 +1019,11 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 		</ButtonElement>
 		<EditTextElement sr="elements2" ve="3">
 			<flags>4</flags>
-			<geom>760,110,760,136,2376,138,1520,220</geom>
+			<geom>380,55,380,68,1188,69,760,110</geom>
 			<valueselectedTask>231</valueselectedTask>
 			<Str sr="arg0" ve="3">TextEdit1</Str>
 			<Str sr="arg1" ve="3">%Textcolor</Str>
-			<Int sr="arg2" val="34"/>
+			<Int sr="arg2" val="20"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%Textcolor</Str>
 			<Str sr="arg5" ve="3"/>
@@ -1199,11 +1045,11 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 		</EditTextElement>
 		<EditTextElement sr="elements20" ve="3">
 			<flags>4</flags>
-			<geom>762,540,756,160,2376,566,1520,200</geom>
+			<geom>381,270,378,80,1188,283,760,100</geom>
 			<valueselectedTask>297</valueselectedTask>
 			<Str sr="arg0" ve="3">TextEdit1111</Str>
 			<Str sr="arg1" ve="3">%Buttoncolor</Str>
-			<Int sr="arg2" val="34"/>
+			<Int sr="arg2" val="20"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%Textcolor</Str>
 			<Str sr="arg5" ve="3"/>
@@ -1225,11 +1071,11 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 		</EditTextElement>
 		<EditTextElement sr="elements3" ve="3">
 			<flags>4</flags>
-			<geom>760,250,760,134,2376,360,1520,200</geom>
+			<geom>380,125,380,67,1188,180,760,100</geom>
 			<valueselectedTask>253</valueselectedTask>
 			<Str sr="arg0" ve="3">TextEdit11</Str>
 			<Str sr="arg1" ve="3">%Bordercolor</Str>
-			<Int sr="arg2" val="34"/>
+			<Int sr="arg2" val="20"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%Textcolor</Str>
 			<Str sr="arg5" ve="3"/>
@@ -1251,11 +1097,11 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 		</EditTextElement>
 		<EditTextElement sr="elements4" ve="3">
 			<flags>4</flags>
-			<geom>760,384,760,134,2376,566,1520,200</geom>
+			<geom>380,192,380,67,1188,283,760,100</geom>
 			<valueselectedTask>292</valueselectedTask>
 			<Str sr="arg0" ve="3">TextEdit111</Str>
 			<Str sr="arg1" ve="3">%Backgroundcolor</Str>
-			<Int sr="arg2" val="34"/>
+			<Int sr="arg2" val="20"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%Textcolor</Str>
 			<Str sr="arg5" ve="3"/>
@@ -1278,10 +1124,10 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 		<ButtonElement sr="elements5" ve="3">
 			<clickTask>271</clickTask>
 			<flags>4</flags>
-			<geom>0,2198,1520,134,2942,1052,950,142</geom>
+			<geom>0,1099,760,67,1471,526,475,71</geom>
 			<Str sr="arg0" ve="3">Button3</Str>
 			<Str sr="arg1" ve="3">Reset Application to fresh</Str>
-			<Int sr="arg2" val="34"/>
+			<Int sr="arg2" val="20"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%Textcolor</Str>
 			<Str sr="arg5" ve="3"/>
@@ -1291,10 +1137,10 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 		<ButtonElement sr="elements6" ve="3">
 			<clickTask>240</clickTask>
 			<flags>4</flags>
-			<geom>0,1926,1520,134,1012,1052,968,142</geom>
+			<geom>0,963,760,67,506,526,484,71</geom>
 			<Str sr="arg0" ve="3">Clear1</Str>
 			<Str sr="arg1" ve="3">Clear Clipboard</Str>
-			<Int sr="arg2" val="34"/>
+			<Int sr="arg2" val="20"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%Textcolor</Str>
 			<Str sr="arg5" ve="3"/>
@@ -1304,10 +1150,10 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 		<ButtonElement sr="elements7" ve="3">
 			<clickTask>249</clickTask>
 			<flags>4</flags>
-			<geom>0,2064,1520,134,1988,1052,950,142</geom>
+			<geom>0,1032,760,67,994,526,475,71</geom>
 			<Str sr="arg0" ve="3">Clear2</Str>
 			<Str sr="arg1" ve="3">Clear Fav</Str>
-			<Int sr="arg2" val="34"/>
+			<Int sr="arg2" val="20"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%Textcolor</Str>
 			<Str sr="arg5" ve="3"/>
@@ -1317,10 +1163,10 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 		<ButtonElement sr="elements8" ve="3">
 			<clickTask>270</clickTask>
 			<flags>4</flags>
-			<geom>0,844,1520,134,0,768,1010,138</geom>
+			<geom>0,422,760,67,0,384,505,69</geom>
 			<Str sr="arg0" ve="3">Button31</Str>
 			<Str sr="arg1" ve="3">Import Clipboard</Str>
-			<Int sr="arg2" val="34"/>
+			<Int sr="arg2" val="20"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%Textcolor</Str>
 			<Str sr="arg5" ve="3"/>
@@ -1330,10 +1176,10 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 		<ButtonElement sr="elements9" ve="3">
 			<clickTask>259</clickTask>
 			<flags>4</flags>
-			<geom>0,1116,1520,134,1012,768,968,138</geom>
+			<geom>0,558,760,67,506,384,484,69</geom>
 			<Str sr="arg0" ve="3">Button311</Str>
 			<Str sr="arg1" ve="3">Import Favorites</Str>
-			<Int sr="arg2" val="34"/>
+			<Int sr="arg2" val="20"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%Textcolor</Str>
 			<Str sr="arg5" ve="3"/>
@@ -1353,18 +1199,18 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 	</Scene>
 	<Scene sr="sceneStrip URL">
 		<cdate>1433868686457</cdate>
-		<edate>1722504533620</edate>
-		<heightLand>290</heightLand>
-		<heightPort>938</heightPort>
+		<edate>1487913074626</edate>
+		<heightLand>145</heightLand>
+		<heightPort>529</heightPort>
 		<nme>Strip URL</nme>
-		<widthLand>3896</widthLand>
-		<widthPort>2160</widthPort>
+		<widthLand>1948</widthLand>
+		<widthPort>1218</widthPort>
 		<TextElement sr="elements0" ve="3">
 			<flags>4</flags>
-			<geom>0,0,2160,734,0,0,3896,168</geom>
+			<geom>0,0,1218,415,0,0,1948,84</geom>
 			<Str sr="arg0" ve="3">Text1</Str>
 			<Str sr="arg1" ve="3">%CLIP</Str>
-			<Int sr="arg2" val="34"/>
+			<Int sr="arg2" val="20"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%Textcolor</Str>
 			<Str sr="arg5" ve="3"/>
@@ -1387,10 +1233,10 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 		<ButtonElement sr="elements1" ve="3">
 			<clickTask>233</clickTask>
 			<flags>4</flags>
-			<geom>0,734,714,198,0,168,1282,118</geom>
+			<geom>0,415,403,112,0,84,641,59</geom>
 			<Str sr="arg0" ve="3">Button1</Str>
 			<Str sr="arg1" ve="3">Yes</Str>
-			<Int sr="arg2" val="34"/>
+			<Int sr="arg2" val="20"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%Textcolor</Str>
 			<Str sr="arg5" ve="3"/>
@@ -1400,10 +1246,10 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 		<ButtonElement sr="elements2" ve="3">
 			<clickTask>289</clickTask>
 			<flags>4</flags>
-			<geom>1438,734,718,194,2660,168,1234,118</geom>
+			<geom>811,415,405,110,1330,84,617,59</geom>
 			<Str sr="arg0" ve="3">Button11</Str>
 			<Str sr="arg1" ve="3">No</Str>
-			<Int sr="arg2" val="34"/>
+			<Int sr="arg2" val="20"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%Textcolor</Str>
 			<Str sr="arg5" ve="3"/>
@@ -1412,10 +1258,10 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 		</ButtonElement>
 		<TextElement sr="elements3" ve="3">
 			<flags>4</flags>
-			<geom>718,734,714,194,1284,168,1364,118</geom>
+			<geom>405,415,403,110,642,84,682,59</geom>
 			<Str sr="arg0" ve="3">Text2</Str>
 			<Str sr="arg1" ve="3">Strip URL of "&amp;" and everything after?</Str>
-			<Int sr="arg2" val="34"/>
+			<Int sr="arg2" val="20"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%Textcolor</Str>
 			<Str sr="arg5" ve="3"/>
@@ -1448,20 +1294,20 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 	</Scene>
 	<Scene sr="sceneWord Check">
 		<cdate>1435099982371</cdate>
-		<edate>1746890074326</edate>
+		<edate>1472731151321</edate>
 		<gridSize>10</gridSize>
-		<heightLand>756</heightLand>
-		<heightPort>938</heightPort>
+		<heightLand>378</heightLand>
+		<heightPort>529</heightPort>
 		<nme>Word Check</nme>
-		<widthLand>4562</widthLand>
-		<widthPort>2160</widthPort>
+		<widthLand>2281</widthLand>
+		<widthPort>1218</widthPort>
 		<EditTextElement sr="elements0" ve="3">
 			<flags>12</flags>
-			<geom>176,104,1794,140,190,126,4178,166</geom>
+			<geom>100,59,1012,80,95,63,2089,83</geom>
 			<valueselectedTask>284</valueselectedTask>
 			<Str sr="arg0" ve="3">TextEdit1</Str>
 			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="34"/>
+			<Int sr="arg2" val="20"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%Textcolor</Str>
 			<Str sr="arg5" ve="3"/>
@@ -1484,10 +1330,10 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 		<ButtonElement sr="elements1" ve="3">
 			<clickTask>256</clickTask>
 			<flags>4</flags>
-			<geom>0,104,174,140,0,126,186,166</geom>
+			<geom>0,59,99,80,0,63,93,83</geom>
 			<Str sr="arg0" ve="3">Button1</Str>
 			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="34"/>
+			<Int sr="arg2" val="20"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%Textcolor</Str>
 			<Str sr="arg5" ve="3"/>
@@ -1499,10 +1345,10 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 		<ButtonElement sr="elements2" ve="3">
 			<clickTask>226</clickTask>
 			<flags>4</flags>
-			<geom>1978,104,176,140,4372,126,186,166</geom>
+			<geom>1116,59,100,80,2186,63,93,83</geom>
 			<Str sr="arg0" ve="3">Button2</Str>
 			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="34"/>
+			<Int sr="arg2" val="20"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%Textcolor</Str>
 			<Str sr="arg5" ve="3"/>
@@ -1514,10 +1360,10 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 		<ButtonElement sr="elements3" ve="3">
 			<clickTask>247</clickTask>
 			<flags>4</flags>
-			<geom>0,0,2160,104,0,0,4558,126</geom>
+			<geom>0,0,1218,59,0,0,2279,63</geom>
 			<Str sr="arg0" ve="3">Button3</Str>
 			<Str sr="arg1" ve="3"/>
-			<Int sr="arg2" val="34"/>
+			<Int sr="arg2" val="20"/>
 			<Int sr="arg3" val="100"/>
 			<Str sr="arg4" ve="3">%Textcolor</Str>
 			<Str sr="arg5" ve="3"/>
@@ -1528,16 +1374,15 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 		</ButtonElement>
 		<WebElement sr="elements4" ve="2">
 			<flags>4</flags>
-			<geom>0,250,2160,684,0,292,4558,462</geom>
+			<geom>0,141,1218,386,0,146,2279,231</geom>
 			<Str sr="arg0" ve="3">WebView1</Str>
 			<Int sr="arg1" val="0"/>
 			<Str sr="arg2" ve="3">%ClipURL</Str>
 			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="1"/>
+			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="0"/>
 			<Int sr="arg7" val="0"/>
-			<Str sr="arg8" ve="3"/>
 			<RectElement sr="background">
 				<flags>4</flags>
 				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
@@ -1566,7 +1411,7 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 		<cdate>1435101317541</cdate>
 		<edate>1435101317541</edate>
 		<id>226</id>
-		<pri>10</pri>
+		<pri>104</pri>
 		<Action sr="act0" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%Wordsearch</Str>
@@ -1586,7 +1431,6 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task227">
@@ -1607,15 +1451,10 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task228">
@@ -1631,7 +1470,6 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
@@ -1639,15 +1477,10 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>547</code>
@@ -1657,12 +1490,11 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task229">
 		<cdate>1428890289731</cdate>
-		<edate>1609982944127</edate>
+		<edate>1457894178761</edate>
 		<id>229</id>
 		<nme>Pips Clip - Open Search</nme>
 		<pri>100</pri>
@@ -1672,15 +1504,10 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
@@ -1688,15 +1515,10 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>130</code>
@@ -1704,15 +1526,10 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>130</code>
@@ -1720,15 +1537,10 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>130</code>
@@ -1736,15 +1548,10 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>130</code>
@@ -1752,29 +1559,21 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>47</code>
 			<Str sr="arg0" ve="3">Word Check</Str>
 			<Int sr="arg1" val="3"/>
-			<Int sr="arg10" val="0"/>
 			<Int sr="arg2" val="100"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="1"/>
 			<Int sr="arg7" val="1"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>547</code>
@@ -1784,7 +1583,6 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task230">
@@ -1798,22 +1596,17 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task231">
 		<cdate>1428996518855</cdate>
 		<edate>1428996518855</edate>
 		<id>231</id>
-		<pri>10</pri>
+		<pri>104</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%SettingText</Str>
@@ -1822,7 +1615,6 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task232">
@@ -1853,7 +1645,6 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task234">
@@ -1874,20 +1665,6 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 			<code>548</code>
 			<Str sr="arg0" ve="3">Removed %tap_label</Str>
 			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Int sr="arg9" val="1"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>49</code>
@@ -1913,20 +1690,15 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task236">
 		<cdate>1428892604565</cdate>
-		<edate>1602362125071</edate>
+		<edate>1457894196099</edate>
 		<id>236</id>
 		<nme>Pips Clip - Open Choice</nme>
 		<pri>100</pri>
@@ -1936,21 +1708,15 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>47</code>
 			<Str sr="arg0" ve="3">Strip URL</Str>
 			<Int sr="arg1" val="1"/>
-			<Int sr="arg10" val="0"/>
 			<Int sr="arg2" val="100"/>
 			<Int sr="arg3">
 				<var>%Statusbar</var>
@@ -1959,8 +1725,6 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="1"/>
 			<Int sr="arg7" val="1"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task237">
@@ -1972,8 +1736,6 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 			<code>105</code>
 			<Str sr="arg0" ve="3">%tap_label</Str>
 			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3"/>
-			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
@@ -1981,15 +1743,10 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>547</code>
@@ -2000,7 +1757,6 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task238">
@@ -2017,10 +1773,9 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 	</Task>
 	<Task sr="task239">
 		<cdate>1435203790032</cdate>
-		<edate>1746889969706</edate>
+		<edate>1487046245578</edate>
 		<id>239</id>
 		<nme>Pips Clip - Statusbar</nme>
-		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>348</code>
 			<Int sr="arg0" val="1"/>
@@ -2045,7 +1800,6 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>38</code>
@@ -2068,7 +1822,6 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>38</code>
@@ -2078,7 +1831,7 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 		<cdate>1428388950062</cdate>
 		<edate>1428388950062</edate>
 		<id>240</id>
-		<pri>10</pri>
+		<pri>102</pri>
 		<Action sr="act0" ve="7">
 			<code>49</code>
 			<Str sr="arg0" ve="3">Clipboard List</Str>
@@ -2089,42 +1842,35 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task241">
 		<cdate>1433162187529</cdate>
-		<edate>1724275442718</edate>
+		<edate>1563145119703</edate>
 		<id>241</id>
 		<nme>Pips Clip - Get Page Title Process</nme>
-		<pri>100</pri>
+		<pri>7</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%start</Str>
+			<Str sr="arg0" ve="3">%Start</Str>
 			<Str sr="arg1" ve="3">%CLIP</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="0"/>
+			<Int sr="arg5"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%stage1</Str>
+			<Str sr="arg0" ve="3">%Stage1</Str>
 			<Str sr="arg1" ve="3">Null</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="0"/>
+			<Int sr="arg5"/>
 		</Action>
 		<Action sr="act10" ve="7">
 			<code>37</code>
@@ -2138,20 +1884,18 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 		</Action>
 		<Action sr="act11" ve="7">
 			<code>590</code>
-			<Str sr="arg0" ve="3">%start</Str>
+			<Str sr="arg0" ve="3">%Start</Str>
 			<Str sr="arg1" ve="3">&amp;</Str>
 			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act12" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%start</Str>
-			<Str sr="arg1" ve="3">%start1</Str>
+			<Str sr="arg0" ve="3">%Start</Str>
+			<Str sr="arg1" ve="3">%Start1</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="0"/>
+			<Int sr="arg5"/>
 		</Action>
 		<Action sr="act13" ve="7">
 			<code>38</code>
@@ -2167,98 +1911,134 @@ Current clipboard URI (could be image or something else)&lt;/_array_net.dinglisc
 			<label>Finish</label>
 		</Action>
 		<Action sr="act17" ve="7">
+			<code>118</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%Start</Str>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0</Str>
+			<Int sr="arg5" val="10"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+		</Action>
+		<Action sr="act18" ve="7">
+			<code>547</code>
+			<on>false</on>
+			<Str sr="arg0" ve="3">%Split</Str>
+			<Str sr="arg1" ve="3">%HTTPD</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+		</Action>
+		<Action sr="act19" ve="7">
 			<code>339</code>
 			<Bundle sr="arg0">
 				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_cookies
-Cookies
-The cookies the server sent in the response in the Cookie:COOKIE_VALUE format. You can use this directly in the 'Headers' field of the HTTP Request action&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_data
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%http_data
 Data
-Data that the server responded from the HTTP request.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_file_output
-File Output
-Will always contain the file's full path even if you specified a directory as the File to save.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_response_code
+Data that the server responded from the HTTP request.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%http_response_code
 Response Code
-The HTTP Code the server responded&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%http_headers()
+The HTTP Code the server responded&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%http_headers()
 Response Headers
-The HTTP Headers the server sent in the response. Each header is in the 'key:value' format&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%http_response_length
+The HTTP Headers the server sent in the response. Each header is in the 'key:value' format&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%http_response_length
 Response Length
-The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
 					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
 				</Vals>
 			</Bundle>
 			<Int sr="arg1" val="0"/>
-			<Int sr="arg10" val="0"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="1"/>
-			<Str sr="arg2" ve="3">%start</Str>
-			<Str sr="arg3" ve="3"/>
+			<Str sr="arg2" ve="3">%Start</Str>
+			<Str sr="arg3" ve="3">User-Agent:Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0</Str>
 			<Str sr="arg4" ve="3"/>
 			<Str sr="arg5" ve="3"/>
 			<Str sr="arg6" ve="3"/>
 			<Str sr="arg7" ve="3"/>
 			<Int sr="arg8" val="30"/>
-			<Int sr="arg9" val="1"/>
+			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act18" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%title</Str>
-			<Str sr="arg1" ve="3">%http_data.title</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
+		<!-- Added: if HTTP response not 200 notify and finish -->
+		<Action sr="act19b" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%http_response_code</lhs>
+					<op>1</op>
+					<rhs>200</rhs>
+				</Condition>
+			</ConditionList>
 		</Action>
-		<Action sr="act19" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%merg</Str>
-			<Str sr="arg1" ve="3">- %title - %start</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="0"/>
+		<Action sr="act19c" ve="7">
+			<code>548</code>
+			<Str sr="arg0" ve="3">Failed to fetch page title (HTTP %http_response_code)</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+		<Action sr="act19d" ve="7">
+			<code>300</code>
+			<label>Finish</label>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%stage2</Str>
+			<Str sr="arg0" ve="3">%Stage2</Str>
 			<Str sr="arg1" ve="3">Null</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="0"/>
+			<Int sr="arg5"/>
 		</Action>
-		<Action sr="act20" ve="7">
-			<code>105</code>
-			<Str sr="arg0" ve="3">%merg</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3"/>
-			<Int sr="arg3" val="0"/>
+		<!-- Replaced fragile Split+Replace with a JavaScriptlet that extracts and decodes <title> -->
+		<Action sr="actJS" ve="7">
+			<code>432</code>
+			<Str sr="arg0" ve="3">var http = global("http_data") || global("httpd") || global("HTTPD") || global("http_data");
+if(!http) http = global("http_data");
+var html = http.toString();
+var m = html.match(/<title[^>]*>([\s\S]*?)<\/title>/i);
+var title = m ? m[1] : "";
+// decode numeric entities
+title = title.replace(/&#x([0-9a-f]+);/ig, function(_,hex){return String.fromCharCode(parseInt(hex,16));});
+title = title.replace(/&#([0-9]+);/g, function(_,n){return String.fromCharCode(parseInt(n,10));});
+// common named entities
+var entities = {amp:'&',lt:'<',gt:'>',quot:'"',apos:"'",hellip:'...'};
+title = title.replace(/&([a-z]+);/ig, function(_,name){return entities[name.toLowerCase()]||'&'+name+';'});
+setLocal("_title", title);
+</Str>
 		</Action>
-		<Action sr="act21" ve="7">
-			<code>549</code>
-			<Str sr="arg0" ve="3">%start</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act22" ve="7">
-			<code>549</code>
-			<Str sr="arg0" ve="3">%start11</Str>
-			<Int sr="arg1" val="0"/>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act3" ve="7">
+		<!-- End JSlet -->
+		<!-- Added: cleanup temporary variables to reduce global leakage -->
+		<Action sr="actCleanup1" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%Choice</Str>
-			<Str sr="arg1" ve="3">NULL</Str>
+			<Str sr="arg0" ve="3">%Split</Str>
+			<Str sr="arg1" ve="3">Null</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
+		</Action>
+		<Action sr="actCleanup2" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Split2</Str>
+			<Str sr="arg1" ve="3">Null</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="actCleanup3" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%Split21</Str>
+			<Str sr="arg1" ve="3">Null</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
+		<Action sr="act38" ve="7">
+			<code>549</code>
+			<Str sr="arg0" ve="3">%Start11</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>37</code>
@@ -2266,17 +2046,17 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 				<bool0>Or</bool0>
 				<bool1>Or</bool1>
 				<Condition sr="c0" ve="3">
-					<lhs>%start</lhs>
+					<lhs>%Start</lhs>
 					<op>4</op>
 					<rhs>http://*</rhs>
 				</Condition>
 				<Condition sr="c1" ve="3">
-					<lhs>%start</lhs>
+					<lhs>%Start</lhs>
 					<op>4</op>
 					<rhs>www.*</rhs>
 				</Condition>
 				<Condition sr="c2" ve="3">
-					<lhs>%start</lhs>
+					<lhs>%Start</lhs>
 					<op>4</op>
 					<rhs>https://*</rhs>
 				</Condition>
@@ -2284,19 +2064,18 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%stage1</Str>
+			<Str sr="arg0" ve="3">%Stage1</Str>
 			<Str sr="arg1" ve="3">Reached</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="0"/>
+			<Int sr="arg5"/>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
-					<lhs>%start</lhs>
+					<lhs>%Start</lhs>
 					<op>4</op>
 					<rhs>\&amp;</rhs>
 				</Condition>
@@ -2304,13 +2083,12 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>547</code>
-			<Str sr="arg0" ve="3">%stage2</Str>
+			<Str sr="arg0" ve="3">%Stage2</Str>
 			<Str sr="arg1" ve="3">Reached</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="0"/>
+			<Int sr="arg5"/>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>130</code>
@@ -2318,15 +2096,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act9" ve="7">
 			<code>35</code>
@@ -2364,7 +2137,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Str sr="arg0" ve="3">%test</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>342</code>
@@ -2373,7 +2145,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Str sr="arg1" ve="3">PipsClipBackIt-Settings.txt</Str>
 			<Str sr="arg2" ve="3">%test</Str>
 			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act10" ve="7">
 			<code>547</code>
@@ -2383,7 +2154,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act11" ve="7">
 			<code>547</code>
@@ -2393,26 +2163,11 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act12" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">Imported Settings</Str>
 			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Int sr="arg9" val="1"/>
 		</Action>
 		<Action sr="act13" ve="7">
 			<code>43</code>
@@ -2421,20 +2176,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<code>548</code>
 			<Str sr="arg0" ve="3">No file "PipsClipBackIt-Settings.txt" exist</Str>
 			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Int sr="arg9" val="1"/>
 		</Action>
 		<Action sr="act15" ve="7">
 			<code>38</code>
@@ -2458,34 +2199,29 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Str sr="arg0" ve="3">%Backgroundcolor</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%Bordercolor</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%Textcolor</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>417</code>
 			<Str sr="arg0" ve="3">PipsClipBackIt-Settings.txt</Str>
 			<Str sr="arg1" ve="3">%importSettings</Str>
-			<Int sr="arg2" val="0"/>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>590</code>
 			<Str sr="arg0" ve="3">%importSettings</Str>
 			<Str sr="arg1" ve="3">,</Str>
 			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act9" ve="7">
 			<code>547</code>
@@ -2495,7 +2231,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task243">
@@ -2511,7 +2246,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task244">
@@ -2525,7 +2259,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Str sr="arg0" ve="3">%test</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>342</code>
@@ -2534,26 +2267,11 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Str sr="arg1" ve="3">PipsClipBackIt-Clipboard.txt</Str>
 			<Str sr="arg2" ve="3">%test</Str>
 			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act10" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">No file "PipsClipBackIt-Clipboard.txt" exist</Str>
 			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Int sr="arg9" val="1"/>
 		</Action>
 		<Action sr="act11" ve="7">
 			<code>38</code>
@@ -2577,13 +2295,11 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Str sr="arg0" ve="3">%Clipboard</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>417</code>
 			<Str sr="arg0" ve="3">PipsClipBackIt-Clipboard.txt</Str>
 			<Str sr="arg1" ve="3">%ImportClipboard</Str>
-			<Int sr="arg2" val="0"/>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>547</code>
@@ -2593,33 +2309,17 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>590</code>
 			<Str sr="arg0" ve="3">%Clipboard</Str>
 			<Str sr="arg1" ve="3">:~Clipboard(</Str>
 			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">Imported Clipboard</Str>
 			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Int sr="arg9" val="1"/>
 		</Action>
 		<Action sr="act9" ve="7">
 			<code>43</code>
@@ -2627,7 +2327,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task245">
 		<cdate>1428890289731</cdate>
-		<edate>1703554812151</edate>
+		<edate>1457894232927</edate>
 		<id>245</id>
 		<nme>Pips Clip - Open Edit</nme>
 		<pri>100</pri>
@@ -2637,15 +2337,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
@@ -2653,15 +2348,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>130</code>
@@ -2669,15 +2359,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>130</code>
@@ -2685,15 +2370,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>130</code>
@@ -2701,15 +2381,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>130</code>
@@ -2717,29 +2392,21 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>47</code>
 			<Str sr="arg0" ve="3">Edit Box</Str>
 			<Int sr="arg1" val="3"/>
-			<Int sr="arg10" val="0"/>
 			<Int sr="arg2" val="100"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="1"/>
 			<Int sr="arg7" val="1"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>547</code>
@@ -2749,56 +2416,37 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
-		</Action>
-		<Action sr="act8" ve="7">
-			<code>512</code>
-			<Int sr="arg0" val="1"/>
 		</Action>
 	</Task>
 	<Task sr="task246">
 		<cdate>1428892604565</cdate>
-		<edate>1703554829943</edate>
+		<edate>1457894237967</edate>
 		<id>246</id>
 		<nme>Pips Clip - Open Fav</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
-			<code>512</code>
-			<Int sr="arg0" val="1"/>
-		</Action>
-		<Action sr="act1" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Pips Clip - Close Edit</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Pips Clip - Close Clipboard</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
 		</Action>
 		<Action sr="act10" ve="7">
-			<code>47</code>
-			<Str sr="arg0" ve="3">Fav List</Str>
-			<Int sr="arg1" val="1"/>
-			<Int sr="arg10" val="0"/>
-			<Int sr="arg2" val="100"/>
-			<Int sr="arg3">
-				<var>%Statusbar</var>
-			</Int>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="1"/>
-			<Int sr="arg7" val="1"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act11" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%mode</Str>
 			<Str sr="arg1" ve="3">Fav</Str>
@@ -2806,77 +2454,41 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
-		</Action>
-		<Action sr="act12" ve="7">
-			<code>512</code>
-			<Int sr="arg0" val="1"/>
 		</Action>
 		<Action sr="act2" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">Pips Clip - Close Clipboard</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="0"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act3" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Pips Clip - Close Fav</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act3" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Pips Clip - Close Emoji</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act4" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Pips Clip - Close Settings</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act5" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -2886,40 +2498,43 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act6" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Pips Clip - Empty Clipboard Fav</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act7" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act9" ve="7">
+		<Action sr="act8" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Pips Clip - Statusbar</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>47</code>
+			<Str sr="arg0" ve="3">Fav List</Str>
+			<Int sr="arg1" val="1"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3">
+				<var>%Statusbar</var>
+			</Int>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="1"/>
 		</Action>
 		<Img sr="icn" ve="2">
 			<nme>hd_rating_important</nme>
@@ -2929,7 +2544,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 		<cdate>1435103442898</cdate>
 		<edate>1435103442898</edate>
 		<id>247</id>
-		<pri>10</pri>
+		<pri>104</pri>
 		<Action sr="act0" ve="7">
 			<code>49</code>
 			<Str sr="arg0" ve="3">Word Check</Str>
@@ -2937,7 +2552,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task248">
 		<cdate>1428378689768</cdate>
-		<edate>1703554758120</edate>
+		<edate>1457894243349</edate>
 		<id>248</id>
 		<nme>Pips Clip - Empty Clipboard</nme>
 		<pri>100</pri>
@@ -2953,7 +2568,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>355</code>
@@ -3013,15 +2627,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>130</code>
@@ -3029,15 +2638,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task250">
@@ -3051,151 +2655,105 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task251">
 		<cdate>1428408630557</cdate>
 		<edate>1428408630557</edate>
 		<id>251</id>
-		<pri>7</pri>
+		<pri>102</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Pips Clip - Close Fav</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task252">
 		<cdate>1428892604565</cdate>
-		<edate>1746890005665</edate>
+		<edate>1457894249100</edate>
 		<id>252</id>
 		<nme>Pips Clip - Open Emoji</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
-			<code>512</code>
-			<on>false</on>
-			<Int sr="arg0" val="1"/>
-		</Action>
-		<Action sr="act1" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Pips Clip - Close Edit</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act2" ve="7">
+		<Action sr="act1" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Pips Clip - Close Clipboard</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act2" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Pips Clip - Close Fav</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act3" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Pips Clip - Close Emoji</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act4" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Pips Clip - Close Settings</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act5" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Pips Clip - Statusbar</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act6" ve="7">
 			<code>47</code>
 			<Str sr="arg0" ve="3">Emoji</Str>
 			<Int sr="arg1" val="1"/>
-			<Int sr="arg10" val="0"/>
 			<Int sr="arg2" val="100"/>
 			<Int sr="arg3">
 				<var>%Statusbar</var>
@@ -3204,10 +2762,8 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="1"/>
 			<Int sr="arg7" val="1"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act7" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%mode</Str>
 			<Str sr="arg1" ve="3">Emoji</Str>
@@ -3215,7 +2771,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 		<Img sr="icn" ve="2">
 			<nme>hd_social_group</nme>
@@ -3225,7 +2780,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 		<cdate>1428996518855</cdate>
 		<edate>1428996518855</edate>
 		<id>253</id>
-		<pri>12</pri>
+		<pri>104</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%SettingBorder</Str>
@@ -3234,7 +2789,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task254">
@@ -3285,15 +2839,13 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="10"/>
 			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3">%merg</Str>
+			<Str sr="arg7" ve="3">%_title</Str>
 			<Int sr="arg8" val="1"/>
 		</Action>
 		<Action sr="act13" ve="7">
 			<code>105</code>
-			<Str sr="arg0" ve="3">%merg</Str>
+			<Str sr="arg0" ve="3">%_title</Str>
 			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3"/>
-			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act14" ve="7">
 			<code>43</code>
@@ -3307,15 +2859,13 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="10"/>
 			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3">%merg</Str>
+			<Str sr="arg7" ve="3">%_title</Str>
 			<Int sr="arg8" val="1"/>
 		</Action>
 		<Action sr="act16" ve="7">
 			<code>105</code>
-			<Str sr="arg0" ve="3">%merg</Str>
+			<Str sr="arg0" ve="3">%_title</Str>
 			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3"/>
-			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act17" ve="7">
 			<code>38</code>
@@ -3359,20 +2909,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<code>548</code>
 			<Str sr="arg0" ve="3">Please edit the form to add it to the clipboard</Str>
 			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Int sr="arg9" val="1"/>
 		</Action>
 		<Action sr="act23" ve="7">
 			<code>43</code>
@@ -3381,8 +2917,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<code>105</code>
 			<Str sr="arg0" ve="3">%new_val</Str>
 			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3"/>
-			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act25" ve="7">
 			<code>130</code>
@@ -3390,15 +2924,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act26" ve="7">
 			<code>38</code>
@@ -3426,15 +2955,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act30" ve="7">
 			<code>130</code>
@@ -3442,15 +2966,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act31" ve="7">
 			<code>38</code>
@@ -3492,15 +3011,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act37" ve="7">
 			<code>43</code>
@@ -3518,15 +3032,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>38</code>
@@ -3574,15 +3083,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act47" ve="7">
 			<code>43</code>
@@ -3600,15 +3104,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>300</code>
@@ -3640,15 +3139,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act55" ve="7">
 			<code>38</code>
@@ -3667,20 +3161,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<code>548</code>
 			<Str sr="arg0" ve="3">Please choose an option</Str>
 			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Int sr="arg9" val="1"/>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>38</code>
@@ -3692,7 +3172,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task255">
 		<cdate>1428378689768</cdate>
-		<edate>1580552634674</edate>
+		<edate>1457894221833</edate>
 		<id>255</id>
 		<nme>Pips Clip - Empty Emoji</nme>
 		<pri>100</pri>
@@ -3708,7 +3188,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act10" ve="7">
 			<code>355</code>
@@ -3778,7 +3257,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 		<cdate>1435117316680</cdate>
 		<edate>1435117316680</edate>
 		<id>256</id>
-		<pri>10</pri>
+		<pri>104</pri>
 		<Action sr="act0" ve="7">
 			<code>598</code>
 			<Str sr="arg0" ve="3">%Wordsearch</Str>
@@ -3798,29 +3277,23 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task257">
 		<cdate>1428408630557</cdate>
 		<edate>1428408630557</edate>
 		<id>257</id>
-		<pri>10</pri>
+		<pri>16</pri>
 		<Action sr="act0" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Pips Clip - Close Settings</Str>
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
@@ -3828,15 +3301,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task258">
@@ -3852,7 +3320,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task259">
@@ -3866,15 +3333,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task260">
@@ -3889,15 +3351,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
@@ -3905,15 +3362,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>130</code>
@@ -3921,15 +3373,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>130</code>
@@ -3937,15 +3384,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>130</code>
@@ -3953,50 +3395,39 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%Settingbackground</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%SettingBorder</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%SettingText</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>47</code>
 			<Str sr="arg0" ve="3">Settings</Str>
 			<Int sr="arg1" val="7"/>
-			<Int sr="arg10" val="0"/>
 			<Int sr="arg2" val="100"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="1"/>
 			<Int sr="arg7" val="1"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act9" ve="7">
 			<code>547</code>
@@ -4006,7 +3437,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task261">
@@ -4027,7 +3457,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>355</code>
@@ -4064,7 +3493,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task263">
@@ -4080,7 +3508,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task264">
@@ -4096,12 +3523,11 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task265">
 		<cdate>1428379661303</cdate>
-		<edate>1755372475512</edate>
+		<edate>1557196038781</edate>
 		<id>265</id>
 		<nme>Pips Clip - Open Clipboard</nme>
 		<pri>6</pri>
@@ -4112,15 +3538,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
@@ -4129,15 +3550,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act10" ve="7">
 			<code>130</code>
@@ -4145,15 +3561,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act11" ve="7">
 			<code>38</code>
@@ -4174,15 +3585,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act14" ve="7">
 			<code>38</code>
@@ -4198,21 +3604,15 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act17" ve="7">
 			<code>47</code>
 			<Str sr="arg0" ve="3">Clipboard List</Str>
 			<Int sr="arg1" val="1"/>
-			<Int sr="arg10" val="0"/>
 			<Int sr="arg2" val="100"/>
 			<Int sr="arg3">
 				<var>10</var>
@@ -4221,8 +3621,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg5" val="0"/>
 			<Int sr="arg6" val="1"/>
 			<Int sr="arg7" val="1"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act18" ve="7">
 			<code>523</code>
@@ -4231,15 +3629,13 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Str sr="arg1" ve="3">Tap to open clipboard</Str>
 			<Str sr="arg10" ve="3"/>
 			<Str sr="arg11" ve="3"/>
-			<Str sr="arg12" ve="3"/>
-			<Int sr="arg13" val="0"/>
 			<Img sr="arg2" ve="2"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
 			<Int sr="arg5" val="1"/>
 			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="0"/>
+			<Int sr="arg7"/>
+			<Int sr="arg8"/>
 			<Str sr="arg9" ve="3"/>
 			<ListElementItem sr="item0">
 				<label>Pips Clip - Get page title notification</label>
@@ -4249,15 +3645,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 					<Int sr="arg1">
 						<var>%priority</var>
 					</Int>
-					<Int sr="arg10" val="0"/>
 					<Str sr="arg2" ve="3"/>
 					<Str sr="arg3" ve="3"/>
 					<Str sr="arg4" ve="3"/>
 					<Int sr="arg5" val="0"/>
-					<Int sr="arg6" val="0"/>
-					<Str sr="arg7" ve="3"/>
-					<Int sr="arg8" val="0"/>
-					<Int sr="arg9" val="0"/>
 				</Action>
 				<Img sr="icon" ve="2">
 					<nme>hl_aaa_ext_link</nme>
@@ -4271,15 +3662,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 					<Int sr="arg1">
 						<var>%priority</var>
 					</Int>
-					<Int sr="arg10" val="0"/>
 					<Str sr="arg2" ve="3"/>
 					<Str sr="arg3" ve="3"/>
 					<Str sr="arg4" ve="3"/>
 					<Int sr="arg5" val="0"/>
-					<Int sr="arg6" val="0"/>
-					<Str sr="arg7" ve="3"/>
-					<Int sr="arg8" val="0"/>
-					<Int sr="arg9" val="0"/>
 				</Action>
 				<Img sr="icon" ve="2">
 					<nme>hl_rating_important</nme>
@@ -4293,15 +3679,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 					<Int sr="arg1">
 						<var>%priority</var>
 					</Int>
-					<Int sr="arg10" val="0"/>
 					<Str sr="arg2" ve="3"/>
 					<Str sr="arg3" ve="3"/>
 					<Str sr="arg4" ve="3"/>
 					<Int sr="arg5" val="0"/>
-					<Int sr="arg6" val="0"/>
-					<Str sr="arg7" ve="3"/>
-					<Int sr="arg8" val="0"/>
-					<Int sr="arg9" val="0"/>
 				</Action>
 				<Img sr="icon" ve="2">
 					<nme>hl_social_group</nme>
@@ -4315,15 +3696,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>130</code>
@@ -4332,15 +3708,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act20" ve="7">
 			<code>547</code>
@@ -4350,43 +3721,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
-		</Action>
-		<Action sr="act21" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">Daily Toggle Accessibility</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act22" ve="7">
-			<code>512</code>
-			<Int sr="arg0" val="1"/>
-		</Action>
-		<Action sr="act23" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">Daily Toggle Accessibility</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>130</code>
@@ -4395,15 +3729,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>130</code>
@@ -4412,15 +3741,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>130</code>
@@ -4429,15 +3753,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>37</code>
@@ -4455,15 +3774,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>38</code>
@@ -4484,47 +3798,25 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task266">
 		<cdate>1433394666460</cdate>
-		<edate>1755372691046</edate>
+		<edate>1563144305429</edate>
 		<id>266</id>
 		<nme>Pips Clip - Start Application</nme>
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%CLIP</lhs>
-					<op>13</op>
-					<rhs></rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>105</code>
-			<Str sr="arg0" ve="3">%Clipboard1</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act3" ve="7">
 			<code>523</code>
 			<Str sr="arg0" ve="3">Pips Clip</Str>
-			<Str sr="arg1" ve="3">%CLIP</Str>
+			<Str sr="arg1" ve="3">%Clipboard1</Str>
 			<Str sr="arg10" ve="3"/>
-			<Str sr="arg11" ve="3">super_tasker_notifications_created_by_me_the_developer</Str>
-			<Str sr="arg12" ve="3"/>
-			<Int sr="arg13" val="0"/>
+			<Str sr="arg11" ve="3"/>
 			<Img sr="arg2" ve="2">
 				<nme>hd_ab_content_paste</nme>
 			</Img>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="1"/>
-			<Int sr="arg5" val="5"/>
+			<Int sr="arg5" val="2"/>
 			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="0"/>
+			<Int sr="arg7"/>
+			<Int sr="arg8"/>
 			<Str sr="arg9" ve="3"/>
 			<ListElementItem sr="item0">
 				<label>URL</label>
@@ -4534,15 +3826,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 					<Int sr="arg1">
 						<var>%priority</var>
 					</Int>
-					<Int sr="arg10" val="0"/>
 					<Str sr="arg2" ve="3"/>
 					<Str sr="arg3" ve="3"/>
 					<Str sr="arg4" ve="3"/>
 					<Int sr="arg5" val="0"/>
-					<Int sr="arg6" val="0"/>
-					<Str sr="arg7" ve="3"/>
-					<Int sr="arg8" val="0"/>
-					<Int sr="arg9" val="0"/>
 				</Action>
 				<Img sr="icon" ve="2">
 					<nme>cust_animal_hippo</nme>
@@ -4556,15 +3843,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 					<Int sr="arg1">
 						<var>%priority</var>
 					</Int>
-					<Int sr="arg10" val="0"/>
 					<Str sr="arg2" ve="3"/>
 					<Str sr="arg3" ve="3"/>
 					<Str sr="arg4" ve="3"/>
 					<Int sr="arg5" val="0"/>
-					<Int sr="arg6" val="0"/>
-					<Str sr="arg7" ve="3"/>
-					<Int sr="arg8" val="0"/>
-					<Int sr="arg9" val="0"/>
 				</Action>
 				<Img sr="icon" ve="2">
 					<nme>hl_rating_important</nme>
@@ -4578,20 +3860,20 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 					<Int sr="arg1">
 						<var>%priority</var>
 					</Int>
-					<Int sr="arg10" val="0"/>
 					<Str sr="arg2" ve="3"/>
 					<Str sr="arg3" ve="3"/>
 					<Str sr="arg4" ve="3"/>
 					<Int sr="arg5" val="0"/>
-					<Int sr="arg6" val="0"/>
-					<Str sr="arg7" ve="3"/>
-					<Int sr="arg8" val="0"/>
-					<Int sr="arg9" val="0"/>
 				</Action>
 				<Img sr="icon" ve="2">
 					<nme>hl_social_group</nme>
 				</Img>
 			</ListElementItem>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>105</code>
+			<Str sr="arg0" ve="3">%Clipboard1</Str>
+			<Int sr="arg1" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task267">
@@ -4610,15 +3892,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>130</code>
@@ -4626,15 +3903,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task268">
@@ -4648,20 +3920,15 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task269">
 		<cdate>1429074272094</cdate>
-		<edate>1746889939524</edate>
+		<edate>1471218443837</edate>
 		<id>269</id>
 		<nme>Pips Clip - Resize Application</nme>
 		<pri>10</pri>
@@ -4711,7 +3978,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="1"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act12" ve="7">
 			<code>38</code>
@@ -4765,7 +4031,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Str sr="arg0" ve="3">%Screenres</Str>
 			<Str sr="arg1" ve="3">x</Str>
 			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act19" ve="7">
 			<code>547</code>
@@ -4775,7 +4040,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="1"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>547</code>
@@ -4785,7 +4049,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="1"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act20" ve="7">
 			<code>547</code>
@@ -4795,7 +4058,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="1"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act21" ve="7">
 			<code>58</code>
@@ -4837,7 +4099,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="1"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>38</code>
@@ -4866,7 +4127,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="1"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act9" ve="7">
 			<code>38</code>
@@ -4888,15 +4148,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>130</code>
@@ -4904,15 +4159,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task271">
@@ -4926,15 +4176,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
@@ -4942,15 +4187,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>130</code>
@@ -4958,15 +4198,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task272">
@@ -4983,7 +4218,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>547</code>
@@ -4993,7 +4227,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>547</code>
@@ -5003,7 +4236,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>547</code>
@@ -5013,7 +4245,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act4" ve="7">
 			<code>547</code>
@@ -5023,7 +4254,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task273">
@@ -5054,7 +4284,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Str sr="arg0" ve="3">PipsClipBackIt-Clipboardfav.txt</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>410</code>
@@ -5067,20 +4296,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<code>548</code>
 			<Str sr="arg0" ve="3">"PipsClipBackIt-Clipboardfav.txt" created</Str>
 			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Int sr="arg9" val="1"/>
 		</Action>
 	</Task>
 	<Task sr="task275">
@@ -5101,7 +4316,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Str sr="arg0" ve="3">PipsClipBackIt-Clipboard.txt</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>410</code>
@@ -5114,20 +4328,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<code>548</code>
 			<Str sr="arg0" ve="3">"PipsClipBackIt-Clipboard.txt" created</Str>
 			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Int sr="arg9" val="1"/>
 		</Action>
 	</Task>
 	<Task sr="task276">
@@ -5144,21 +4344,18 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Str sr="arg0" ve="3">%SettingBorder</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%Settingbackground</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%SettingText</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task277">
@@ -5172,28 +4369,21 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task278">
 		<cdate>1428379366524</cdate>
 		<edate>1428379366524</edate>
 		<id>278</id>
-		<pri>7</pri>
+		<pri>12</pri>
 		<Action sr="act0" ve="7">
 			<code>105</code>
 			<Str sr="arg0" ve="3">%tap_label</Str>
 			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3"/>
-			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
@@ -5201,15 +4391,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>130</code>
@@ -5217,20 +4402,15 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task279">
 		<cdate>1428377084468</cdate>
-		<edate>1755372514345</edate>
+		<edate>1487133719768</edate>
 		<id>279</id>
 		<nme>Pips Clip - Update Clipboard</nme>
 		<pri>6</pri>
@@ -5244,6 +4424,30 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 				</Condition>
 			</ConditionList>
 		</Action>
+		<!-- Debounce guard: if %ClipGuard set then finish; else set it, continue, then clear after 1000ms -->
+		<Action sr="actCheckGuard" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%ClipGuard</lhs>
+					<op>0</op>
+					<rhs>1</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="actFinishGuard" ve="7">
+			<code>300</code>
+			<label>Finish</label>
+		</Action>
+		<Action sr="actSetGuard" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ClipGuard</Str>
+			<Str sr="arg1" ve="3">1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
+		</Action>
 		<Action sr="act1" ve="7">
 			<code>38</code>
 		</Action>
@@ -5253,15 +4457,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>37</code>
@@ -5301,15 +4500,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>38</code>
@@ -5320,15 +4514,28 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
+		</Action>
+		<!-- Wait and clear guard to allow future clipboard events -->
+		<Action sr="actGuardWait" ve="7">
+			<code>35</code>
+			<Int sr="arg0" val="1"/>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="actClearGuard" ve="7">
+			<code>547</code>
+			<Str sr="arg0" ve="3">%ClipGuard</Str>
+			<Str sr="arg1" ve="3">0</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5"/>
 		</Action>
 	</Task>
 	<Task sr="task280">
@@ -5350,8 +4557,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Str sr="arg1" ve="3">%CLIP Was added to your favorite list.</Str>
 			<Str sr="arg10" ve="3"/>
 			<Str sr="arg11" ve="3"/>
-			<Str sr="arg12" ve="3"/>
-			<Int sr="arg13" val="0"/>
 			<Img sr="arg2" ve="2">
 				<nme>hd_content_edit</nme>
 			</Img>
@@ -5375,15 +4580,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task282">
@@ -5405,8 +4605,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<code>105</code>
 			<Str sr="arg0" ve="3">%tap_label</Str>
 			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3"/>
-			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
@@ -5414,15 +4612,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>547</code>
@@ -5433,14 +4626,13 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task284">
 		<cdate>1435100129967</cdate>
 		<edate>1435100129967</edate>
 		<id>284</id>
-		<pri>10</pri>
+		<pri>104</pri>
 		<Action sr="act0" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%Wordsearch</Str>
@@ -5448,8 +4640,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="0"/>
+			<Int sr="arg5"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>598</code>
@@ -5459,7 +4650,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3">%merg</Str>
+			<Str sr="arg5" ve="3">%_title</Str>
 			<Int sr="arg6" val="1"/>
 			<Str sr="arg7" ve="3">+</Str>
 		</Action>
@@ -5467,12 +4658,11 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<code>547</code>
 			<on>false</on>
 			<Str sr="arg0" ve="3">%Wordsearch</Str>
-			<Str sr="arg1" ve="3">%merg</Str>
+			<Str sr="arg1" ve="3">%_title</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task285">
@@ -5494,8 +4684,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Str sr="arg1" ve="3">%CLIP Was added to your favorite list.</Str>
 			<Str sr="arg10" ve="3"/>
 			<Str sr="arg11" ve="3"/>
-			<Str sr="arg12" ve="3"/>
-			<Int sr="arg13" val="0"/>
 			<Img sr="arg2" ve="2">
 				<nme>hd_content_edit</nme>
 			</Img>
@@ -5510,7 +4698,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 	</Task>
 	<Task sr="task286">
 		<cdate>1432825111022</cdate>
-		<edate>1639599859679</edate>
+		<edate>1541087207061</edate>
 		<id>286</id>
 		<nme>Pips Clip - Get page title</nme>
 		<Action sr="act0" ve="7">
@@ -5521,7 +4709,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
@@ -5529,15 +4716,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>130</code>
@@ -5545,15 +4727,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task287">
@@ -5568,7 +4745,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Str sr="arg0" ve="3">PipsClipBackIt-Settings.txt</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>410</code>
@@ -5581,28 +4757,14 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<code>548</code>
 			<Str sr="arg0" ve="3">"PipsClipBackIt-Settings.txt" created</Str>
 			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Int sr="arg9" val="1"/>
 		</Action>
 	</Task>
 	<Task sr="task288">
 		<cdate>1428545409602</cdate>
-		<edate>1735150405059</edate>
+		<edate>1457894345769</edate>
 		<id>288</id>
 		<nme>Pips Clip - Remove Duplicates</nme>
-		<pri>100</pri>
+		<pri>10</pri>
 		<Action sr="act0" ve="7">
 			<code>369</code>
 			<Str sr="arg0" ve="3">%Clipboard</Str>
@@ -5626,7 +4788,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task290">
@@ -5640,15 +4801,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task291">
@@ -5662,7 +4818,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Str sr="arg0" ve="3">%test</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>342</code>
@@ -5671,26 +4826,11 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Str sr="arg1" ve="3">PipsClipBackIt-Clipboardfav.txt</Str>
 			<Str sr="arg2" ve="3">%test</Str>
 			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act10" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">No file "PipsClipBackIt-Clipboardfav.txt" exist</Str>
 			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Int sr="arg9" val="1"/>
 		</Action>
 		<Action sr="act11" ve="7">
 			<code>38</code>
@@ -5714,13 +4854,11 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Str sr="arg0" ve="3">%Clipboardfav</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>417</code>
 			<Str sr="arg0" ve="3">PipsClipBackIt-Clipboardfav.txt</Str>
 			<Str sr="arg1" ve="3">%importClipboardfav</Str>
-			<Int sr="arg2" val="0"/>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>547</code>
@@ -5730,33 +4868,17 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>590</code>
 			<Str sr="arg0" ve="3">%Clipboardfav</Str>
 			<Str sr="arg1" ve="3">:~Clipboardfav(</Str>
 			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">Imported Clipboardfav</Str>
 			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Int sr="arg9" val="1"/>
 		</Action>
 		<Action sr="act9" ve="7">
 			<code>43</code>
@@ -5775,7 +4897,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task293">
@@ -5801,15 +4922,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task295">
@@ -5830,7 +4946,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Str sr="arg0" ve="3">PipsClipBackIt-Emoji.txt</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>410</code>
@@ -5843,25 +4958,11 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<code>548</code>
 			<Str sr="arg0" ve="3">"PipsClipBackIt-Emoji.txt" created</Str>
 			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Int sr="arg9" val="1"/>
 		</Action>
 	</Task>
 	<Task sr="task296">
 		<cdate>1432825111022</cdate>
-		<edate>1617752179223</edate>
+		<edate>1487912929387</edate>
 		<id>296</id>
 		<nme>Pips Clip - Get page title notification</nme>
 		<pri>100</pri>
@@ -5873,7 +4974,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>130</code>
@@ -5881,24 +4981,17 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>523</code>
 			<Str sr="arg0" ve="3">Pips Clip Update</Str>
 			<Str sr="arg1" ve="3">Pips Clip</Str>
 			<Str sr="arg10" ve="3"/>
-			<Str sr="arg11" ve="3">super_tasker_notifications_created_by_me_the_developer</Str>
-			<Str sr="arg12" ve="3"/>
-			<Int sr="arg13" val="0"/>
+			<Str sr="arg11" ve="3"/>
 			<Img sr="arg2" ve="2">
 				<nme>hd_ab_content_paste</nme>
 			</Img>
@@ -5906,8 +4999,8 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-			<Int sr="arg8" val="0"/>
+			<Int sr="arg7"/>
+			<Int sr="arg8"/>
 			<Str sr="arg9" ve="3"/>
 		</Action>
 		<Action sr="act3" ve="7">
@@ -5937,7 +5030,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 	</Task>
 	<Task sr="task298">
@@ -5951,7 +5043,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Str sr="arg0" ve="3">%test</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>342</code>
@@ -5960,26 +5051,11 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Str sr="arg1" ve="3">PipsClipBackIt-Emoji.txt</Str>
 			<Str sr="arg2" ve="3">%test</Str>
 			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act10" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">No file "PipsClipBackIt-Emoji.txt" exist</Str>
 			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Int sr="arg9" val="1"/>
 		</Action>
 		<Action sr="act11" ve="7">
 			<code>38</code>
@@ -6003,13 +5079,11 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Str sr="arg0" ve="3">%Emoji</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>417</code>
 			<Str sr="arg0" ve="3">PipsClipBackIt-Emoji.txt</Str>
 			<Str sr="arg1" ve="3">%importEmoji</Str>
-			<Int sr="arg2" val="0"/>
 		</Action>
 		<Action sr="act6" ve="7">
 			<code>547</code>
@@ -6019,33 +5093,17 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>590</code>
 			<Str sr="arg0" ve="3">%Emoji</Str>
 			<Str sr="arg1" ve="3">:~Emoji(</Str>
 			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>548</code>
 			<Str sr="arg0" ve="3">Imported Emoji</Str>
 			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Int sr="arg9" val="1"/>
 		</Action>
 		<Action sr="act9" ve="7">
 			<code>43</code>
@@ -6055,7 +5113,7 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 		<cdate>1428388950062</cdate>
 		<edate>1428388950062</edate>
 		<id>299</id>
-		<pri>12</pri>
+		<pri>104</pri>
 		<Action sr="act0" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
@@ -6070,20 +5128,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<code>548</code>
 			<Str sr="arg0" ve="3">You need to change something in order to save changes.</Str>
 			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Int sr="arg9" val="1"/>
 		</Action>
 		<Action sr="act10" ve="7">
 			<code>547</code>
@@ -6093,7 +5137,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act11" ve="7">
 			<code>38</code>
@@ -6116,7 +5159,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act14" ve="7">
 			<code>38</code>
@@ -6139,7 +5181,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act17" ve="7">
 			<code>38</code>
@@ -6162,7 +5203,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act2" ve="7">
 			<code>43</code>
@@ -6188,7 +5228,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act23" ve="7">
 			<code>38</code>
@@ -6211,7 +5250,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act26" ve="7">
 			<code>38</code>
@@ -6224,7 +5262,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act28" ve="7">
 			<code>547</code>
@@ -6234,7 +5271,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act29" ve="7">
 			<code>547</code>
@@ -6244,7 +5280,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>37</code>
@@ -6264,7 +5299,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act31" ve="7">
 			<code>130</code>
@@ -6272,15 +5306,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act32" ve="7">
 			<code>130</code>
@@ -6288,15 +5317,10 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg1">
 				<var>%priority</var>
 			</Int>
-			<Int sr="arg10" val="0"/>
 			<Str sr="arg2" ve="3"/>
 			<Str sr="arg3" ve="3"/>
 			<Str sr="arg4" ve="3"/>
 			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
 		</Action>
 		<Action sr="act33" ve="7">
 			<code>38</code>
@@ -6309,7 +5333,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act5" ve="7">
 			<code>38</code>
@@ -6332,7 +5355,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
 			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 		<Action sr="act8" ve="7">
 			<code>38</code>
@@ -6346,198 +5368,6 @@ The size of the response in bytes&lt;/_array_net.dinglisch.android.tasker.RELEVA
 					<rhs></rhs>
 				</Condition>
 			</ConditionList>
-		</Action>
-	</Task>
-	<Task sr="task379">
-		<cdate>1704043241125</cdate>
-		<edate>1727696470086</edate>
-		<id>379</id>
-		<nme>Name Tasker</nme>
-		<Action sr="act0" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%Taskername</Str>
-			<Str sr="arg1" ve="3">Main</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-	</Task>
-	<Task sr="task565">
-		<cdate>1655929965338</cdate>
-		<edate>1740187588308</edate>
-		<id>565</id>
-		<nme>Pips Clip - Clip History</nme>
-		<pri>100</pri>
-		<Action sr="act0" ve="7">
-			<code>548</code>
-			<Str sr="arg0" ve="3">%Clipboard(#)</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
-			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Int sr="arg9" val="1"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%count</Str>
-			<Str sr="arg1" ve="3">%Clipboard(#)</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%count</lhs>
-					<op>7</op>
-					<rhs>1000</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act3" ve="7">
-			<code>356</code>
-			<Str sr="arg0" ve="3">%Clipboard</Str>
-			<Int sr="arg1">
-				<var>%count</var>
-			</Int>
-			<Str sr="arg2" ve="3"/>
-		</Action>
-		<Action sr="act4" ve="7">
-			<code>135</code>
-			<Int sr="arg0" val="0"/>
-			<Int sr="arg1" val="1"/>
-			<Str sr="arg2" ve="3"/>
-		</Action>
-		<Action sr="act5" ve="7">
-			<code>38</code>
-		</Action>
-	</Task>
-	<Task sr="task675">
-		<cdate>1732058064201</cdate>
-		<edate>1755372492470</edate>
-		<id>675</id>
-		<nme>Daily Toggle Accessibility</nme>
-		<pri>100</pri>
-		<Action sr="act0" ve="7">
-			<code>431</code>
-			<Bundle sr="arg0">
-				<Vals sr="val">
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%as_running_services_after()
-Running Services After
-The services that are running after the action was ran.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%as_running_services_after_app_names()
-Running Services After (App Names)
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;%as_running_services_after_service_names()
-Running Services After (Service Names)
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES2&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;%as_running_services_before()
-Running Services Before
-The services that were running before the action was ran.&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES3&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;%as_running_services_before_app_names()
-Running Services Before (App Names)
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES4&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;%as_running_services_before_service_names()
-Running Services Before (Service Names)
-&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES5&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
-					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
-				</Vals>
-			</Bundle>
-			<Int sr="arg1" val="6"/>
-			<Str sr="arg2" ve="3">com.joaomgcd.autoinput/com.joaomgcd.autoinput.service.ServiceAccessibilityV2,net.dinglisch.android.taskerm/net.dinglisch.android.taskerm.MyAccessibilityService</Str>
-			<Str sr="arg3" ve="3"/>
-		</Action>
-	</Task>
-	<Task sr="task680">
-		<cdate>1746831542503</cdate>
-		<edate>1746831542503</edate>
-		<id>680</id>
-		<pri>8</pri>
-		<Action sr="act0" ve="7">
-			<code>105</code>
-			<Str sr="arg0" ve="3">%tap_label</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3"/>
-			<Int sr="arg3" val="0"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">Pips Clip - Close Clipboard</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="0"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>547</code>
-			<on>false</on>
-			<Str sr="arg0" ve="3">%Selectedclip</Str>
-			<Str sr="arg1" ve="3">%tap_index</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task681">
-		<cdate>1746831556217</cdate>
-		<edate>1746831556217</edate>
-		<id>681</id>
-		<pri>8</pri>
-		<Action sr="act0" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%Selectedclip</Str>
-			<Str sr="arg1" ve="3">%tap_label</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
-		</Action>
-		<Action sr="act1" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">Pips Clip - Open Edit</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="0"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>547</code>
-			<Str sr="arg0" ve="3">%Selectedclipid</Str>
-			<Str sr="arg1" ve="3">%tap_index</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5"/>
-			<Int sr="arg6" val="0"/>
 		</Action>
 	</Task>
 </TaskerData>
